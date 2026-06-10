@@ -16,7 +16,7 @@
   },
   "hero": {
     "title": "RuBy",
-    "tagline": "Developpeur module ERP // ARCHITECTE DE FLUX // Développeur en voie de disparition",
+    "tagline": "Développeur module ERP // ARCHITECTE DE FLUX // Développeur en voie de disparition",
     "subtitle": "Du flux de commandes à l'agent autonome je connecte les systèmes et programme leur intelligence.",
     "cta": "DÉMARRER"
   },
@@ -61,7 +61,7 @@
         "year": "2024–2025",
         "level": "MISSION",
         "title": "Sodilog",
-        "role": "Développeur intégrateur ERP (alternance)",
+        "role": "Développeur (alternance)",
         "description": "Intégration des premières architectures de flux : synchronisation e-commerce ↔ ERP, API Shopify et PrestaShop, mise en place du suivi de commandes.",
         "tags": ["ERP", "API", "FLUX"]
       },
@@ -80,8 +80,8 @@
         "level": "MISSION",
         "title": "Sodilog",
         "role": "Architecte flux & IA (alternance)",
-        "description": "Conception d'architectures de flux avancées, intégration E-commerce ↔ Sage X3, devlopement d'ourils et d'agent IA pour l'optimisation des processus métier.",
-        "tags": ["ODOO", "SAGE X3", "AGENTS", "FLUX"]
+        "description": "Conception d'architectures de flux avancées, intégration E-commerce ↔ Sage X3, devlopement d'ouils et d'agent IA pour l'optimisation des processus métier.",
+        "tags": ["ODOO", "SHOPIFY", "SAGE X3", "AGENTS", "FLUX"]
       }
     ]
   },
@@ -116,22 +116,23 @@
   "agents": {
     "title": "IA & AGENTS",
     "subtitle": "Philosophie agentique",
-    "intro": "Dans le cadre du Master BigData à Epitech, je travaille sur la conception d'agents autonomes,pas seulement l'utilisation d'outils IA, mais la compréhension de pourquoi et comment ces modèles prennent leurs décisions.",
+    "intro": "Dans le cadre de mon Master BigData à Epitech, je travaille sur des systèmes agentiques. L'objectif n'est pas seulement d'utiliser des modèles d'IA, mais de construire des systèmes capables de prendre des décisions dans des environnements réels et contraints.",
+
     "principles": [
       {
         "id": "why",
         "title": "POURQUOI UN AGENT ?",
-        "description": "Un agent, c'est un système qui observe son environnement, décide et agit,en boucle. Là où un script exécute une séquence figée, un agent adapte son comportement au contexte. Pour des flux ERP complexes ou des processus métier non linéaires, c'est la différence entre l'automatisation et l'intelligence."
+        "description": "Un agent permet d'aller au-delà d'un script classique. Au lieu d'exécuter une suite d'actions fixes, il ajuste son comportement en fonction de ce qu'il observe. Dans des flux ERP ou des processus métier complexes, cette différence devient essentielle pour gérer l'imprévu."
       },
       {
         "id": "how",
         "title": "COMMENT JE LES CONÇOIS",
-        "description": "Je pars du problème métier, pas du modèle. Je définis d’abord la boucle de raisonnement (objectif, observations, actions, contraintes), puis je choisis la solution adaptée. La simplicité est ma priorité pour limiter les risques. Je privilégie les architectures traçables et prédictibles, car un système dont les décisions sont opaques ou dont le taux d'erreur est incompatible avec les exigences n'est pas envisageable"
+        "description": "Je pars toujours du besoin métier avant la technologie. Je définis une boucle simple : objectif, contexte, actions possibles, contraintes. Ensuite seulement, je choisis les outils (LLM, règles, API). Je privilégie des systèmes lisibles, testables et contrôlables plutôt que des architectures opaques."
       },
       {
         "id": "context",
         "title": "DANS MON CONTEXTE",
-        "description": "Automatisation des flux de réconciliation de données et exploration de solutions pour le routage intelligent des commandes ou l'analyse prédictive de stock. Mon approche consiste à concevoir des briques logicielles autonomes capables d'augmenter la logique métier existante, tout en garantissant un contrôle et une traçabilité rigoureux."
+        "description": "Je les applique à des problématiques concrètes : automatisation de flux ERP, réconciliation de données, ou routage intelligent de commandes. L'idée est de créer des briques autonomes qui améliorent les systèmes existants sans les rendre instables ou imprévisibles."
       }
     ]
   },
@@ -140,23 +141,23 @@
     "subtitle": "Au-delà du terminal",
     "aviation": {
       "title": "AVIATION",
-      "description": "Pilote de planeur au club de Strasbourg, je gère aussi leur compte Instagram. En vol, chaque échange compte : pas de place pour l'approximation quand tu es à plusieurs centaines de mètres du sol. Cette exigence, je la retrouve dans la manière dont je construis des systèmes fiables et propres.",
-      "instagramLabel": "Club Planeur Strasbourg",
+      "description": "En vol, chaque échange compte : pas de place pour l'approximation. Cette exigence, je la retrouve dans la manière dont je construis des systèmes fiables et propres.",
+      "instagramLabel": "Club Planeur",
       "instagramUrl": "https://www.instagram.com/planeurstrasbourg/"
     },
     "astronomy": {
       "title": "ASTRONOMIE",
-      "description": "L'astronomie apprend une chose : l'échelle. Quand tu regardes une étoile à 400/500 années-lumière, tu regardes le passé. Les systèmes d'information ont leur propre temporalité, des données générées il y a des années qui conditionnent des décisions aujourd'hui."
+      "description": "L'astronomie apprend une chose : l'échelle. Quand tu regardes une étoile à 400/500 années-lumière, tu regardes le passé. Les systèmes d'information ont leur propre temporalité, des données générées il y a des années conditionnent les décisions aujourd'hui."
     },
     "volleyball": {
       "title": "VOLLEY",
-      "description": "Au filet, le timing et la confiance dans l'équipe font la différence. Lire le jeu, anticiper, communiquer clairement."
+      "description": "Au filet, le timing et la confiance dans l'équipe font la différence. Lire le jeu, anticiper, communiquer, mais le plus important c'est la 3ème mi-temps."
     }
   },
   "contact": {
     "title": "CONTACT",
     "subtitle": "Prêt à collaborer ?",
-    "description": "Pour un projet, une mission de développement ou simplement échanger, une adresse suffit.",
+    "description": "Pour un projet, une mission de développement ou simplement échanger,",
     "email": "contact@rb-rubydev.fr",
     "cta": "ENVOYER UN MESSAGE"
   },

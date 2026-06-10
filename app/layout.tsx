@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio de RuBy,intégration ERP/e-commerce (Sage X3, Odoo, PrestaShop, Shopify), architecture de flux, développement IA & agents autonomes.",
   keywords: [
-    "Developpeur module ERP",
+    "Développeur module ERP",
     "Sage X3",
     "Odoo",
     "PrestaShop",
