@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RuBy, Développeur",
-    "description": "Portfolio de RuBy,intégration ERP/e-commerce (Sage X3, Odoo, PrestaShop, Shopify), architecture de flux, développement IA & agents autonomes. Master BigData Epitech.",
+    "description": "Portfolio de RuBy, intégration ERP/e-commerce (Sage X3, Odoo, PrestaShop, Shopify), architecture de flux, systèmes IA et agents autonomes. Master Big Data à Epitech.",
     "siteUrl": "https://rb-rubydev.fr",
     "contact": "contact@rb-rubydev.fr"
   },
@@ -16,8 +16,8 @@
   },
   "hero": {
     "title": "RuBy",
-    "tagline": "Développeur module ERP // ARCHITECTE DE FLUX // Développeur en voie de disparition",
-    "subtitle": "Du flux de commandes à l'agent autonome je connecte les systèmes et programme leur intelligence.",
+    "tagline": "Développeur ERP // ARCHITECTE DE FLUX // Systèmes & IA",
+    "subtitle": "Du pipeline de commandes aux systèmes autonomes, je conçois et connecte des infrastructures métier critiques.",
     "cta": "DÉMARRER"
   },
   "parcours": {
@@ -34,9 +34,9 @@
         "year": "2022–2024",
         "level": "LVL 1",
         "title": "IRIS Mediaschool",
-        "role": "Formation développement web & digital",
-        "description": "Deux ans à IRIS Mediaschool pour poser les bases techniques et digitales,du code aux interfaces, de la logique métier aux outils créatifs.",
-        "tags": ["WEB", "DIGITAL", "DEV"]
+        "role": "Fondations en développement web & logiciel",
+        "description": "Deux ans de formation axés sur les fondamentaux du développement logiciel : logique applicative, interfaces, structures de données et projets numériques.",
+        "tags": ["WEB", "DEV", "FOUNDATIONS"]
       },
       {
         "id": "econocom",
@@ -44,17 +44,17 @@
         "level": "MISSION",
         "title": "Econocom",
         "role": "Technicien informatique (alternance)",
-        "description": "Alternance en parallèle d'IRIS. Déploiements, infrastructure, support technique,première confrontation avec les environnements pro complexes.",
-        "tags": ["INFRA", "IT", "ALTERNANCE"]
+        "description": "Exploitation d'infrastructures IT, déploiements, support utilisateur et confrontation à des environnements d'entreprise à forte contrainte opérationnelle.",
+        "tags": ["INFRA", "IT", "OPS"]
       },
       {
         "id": "cesi",
         "year": "2024–2025",
         "level": "LVL 2",
         "title": "CESI",
-        "role": "Licence Informatique",
-        "description": "Licence au CESI,consolidation des fondations en développement logiciel, gestion de projet et architecture applicative.",
-        "tags": ["LICENCE", "DEV", "ARCHITECTURE"]
+        "role": "Bachelor Informatique",
+        "description": "Renforcement des bases en ingénierie logicielle, architecture applicative et gestion de projet technique.",
+        "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
       },
       {
         "id": "sodilog-licence",
@@ -62,7 +62,7 @@
         "level": "MISSION",
         "title": "Sodilog",
         "role": "Développeur (alternance)",
-        "description": "Intégration des premières architectures de flux : synchronisation e-commerce ↔ ERP, API Shopify et PrestaShop, mise en place du suivi de commandes.",
+        "description": "Conception des premiers flux de production : synchronisation e-commerce ↔ ERP, intégration API Shopify et PrestaShop, suivi du cycle de commande.",
         "tags": ["ERP", "API", "FLUX"]
       },
       {
@@ -70,9 +70,9 @@
         "year": "2025–2027",
         "level": "LVL 3",
         "title": "Epitech",
-        "role": "Master IA & BigData [EN COURS]",
-        "description": "Master expert en intelligence artificielle et big data à Epitech,conception d'agents autonomes, modèles de décision, pipelines de données à grande échelle.",
-        "tags": ["IA", "BIDATA", "AGENTS", "EN COURS"]
+        "role": "Master IA & Big Data [EN COURS]",
+        "description": "Master en intelligence artificielle et big data : conception de systèmes d’IA, agents autonomes et pipelines de données distribués.",
+        "tags": ["IA", "BIGDATA", "AGENTS", "EN COURS"]
       },
       {
         "id": "sodilog-master",
@@ -80,20 +80,20 @@
         "level": "MISSION",
         "title": "Sodilog",
         "role": "Architecte flux & IA (alternance)",
-        "description": "Conception d'architectures de flux avancées, intégration E-commerce ↔ Sage X3, devlopement d'ouils et d'agent IA pour l'optimisation des processus métier.",
-        "tags": ["ODOO", "SHOPIFY", "SAGE X3", "AGENTS", "FLUX"]
+        "description": "Conception d’architectures de flux avancées entre ERP et e-commerce (Sage X3, Shopify, Odoo). Mise en place de couches d’automatisation et d’outils IA appliqués aux processus métier.",
+        "tags": ["SAGE X3", "SHOPIFY", "ODOO", "IA", "FLUX"]
       }
     ]
   },
   "expertise": {
     "title": "EXPERTISE",
     "subtitle": "Stack & intégration",
-    "intro": "Chez Sodilog, j'ai conçu des architectures de flux de bout en bout : de la commande passée sur PrestaShop ou Shopify jusqu'à sa synchronisation dans Sage X3, ainsi que l'interconnexion entre les instances Odoo de nos clients et notre ERP",
+    "intro": "Chez Sodilog, j’ai conçu des architectures de flux de bout en bout reliant les plateformes e-commerce (PrestaShop, Shopify) aux ERP (Sage X3, Odoo), avec gestion de la synchronisation, de la cohérence des données et des contraintes opérationnelles.",
     "blocks": [
       {
         "id": "erp-flux",
         "title": "Intégration ERP & Flux",
-        "description": "Architecture de flux de commandes entre e-commerce (PrestaShop, Shopify) et ERP (Sage X3, Odoo). Suivi stock en temps réel, synchronisation bidirectionnelle des articles et tarifs, traçabilité logistique. Les commandes du web arrivent dans l'ERP sans intervention manuelle,c'est le flux.",
+        "description": "Conception de pipelines de commandes entre e-commerce (PrestaShop, Shopify) et ERP (Sage X3, Odoo). Gestion du stock en temps réel, synchronisation bidirectionnelle des produits et des prix, traçabilité logistique et mécanismes de réconciliation des données en environnement réel.",
         "techs": [
           { "name": "Sage X3", "logo": "/img/sage.png" },
           { "name": "Odoo", "logo": "/img/odoo.png" },
@@ -103,8 +103,8 @@
       },
       {
         "id": "dev-apps",
-        "title": "Développement d'apps & APIs",
-        "description": "Conception et implémentation de ponts de données pour assurer l'interopérabilité entre les plateformes e-commerce (Shopify, PrestaShop, Odoo) et l'ERP de Sodilog. Développement d'applications Shopify (Node.js) et de connecteurs API, mise en place d'APIs REST pour l'échange de données entre systèmes hétérogènes, incluant le suivi de fichiers, le transfert et la gestion complète des flux de données, ainsi que la mise en œuvre de processus de réconciliation",
+        "title": "Développement d'applications & APIs",
+        "description": "Conception de couches d’intégration entre systèmes hétérogènes. Développement d’apps Shopify (Node.js), connecteurs API et REST APIs pour assurer l’échange, la traçabilité et la cohérence des données entre ERP et plateformes e-commerce.",
         "techs": [
           { "name": "Node.js", "logo": null },
           { "name": "TypeScript", "logo": null },
@@ -116,23 +116,23 @@
   "agents": {
     "title": "IA & AGENTS",
     "subtitle": "Philosophie agentique",
-    "intro": "Dans le cadre de mon Master BigData à Epitech, je travaille sur des systèmes agentiques. L'objectif n'est pas seulement d'utiliser des modèles d'IA, mais de construire des systèmes capables de prendre des décisions dans des environnements réels et contraints.",
+    "intro": "Dans le cadre de mon Master Big Data à Epitech, je conçois des systèmes agentiques centrés sur la contrôlabilité, l’observabilité et les contraintes réelles plutôt que sur des modèles purement autonomes ou opaques.",
 
     "principles": [
       {
         "id": "why",
         "title": "POURQUOI UN AGENT ?",
-        "description": "Un agent permet d'aller au-delà d'un script classique. Au lieu d'exécuter une suite d'actions fixes, il ajuste son comportement en fonction de ce qu'il observe. Dans des flux ERP ou des processus métier complexes, cette différence devient essentielle pour gérer l'imprévu."
+        "description": "Un agent va au-delà d’un script classique : il adapte ses actions en fonction du contexte et des observations. Dans des systèmes ERP ou des processus métier complexes, cela permet de gérer les exceptions et l’incertitude opérationnelle."
       },
       {
         "id": "how",
         "title": "COMMENT JE LES CONÇOIS",
-        "description": "Je pars toujours du besoin métier avant la technologie. Je définis une boucle simple : objectif, contexte, actions possibles, contraintes. Ensuite seulement, je choisis les outils (LLM, règles, API). Je privilégie des systèmes lisibles, testables et contrôlables plutôt que des architectures opaques."
+        "description": "Je pars du besoin métier avant la technologie. Je définis une boucle simple : objectif, contexte, actions, contraintes et observabilité. Puis je choisis les outils (API, règles, LLM si nécessaire). Je privilégie des systèmes testables et prévisibles plutôt que des architectures opaques."
       },
       {
         "id": "context",
-        "title": "DANS MON CONTEXTE",
-        "description": "Je les applique à des problématiques concrètes : automatisation de flux ERP, réconciliation de données, ou routage intelligent de commandes. L'idée est de créer des briques autonomes qui améliorent les systèmes existants sans les rendre instables ou imprévisibles."
+        "title": "APPLICATIONS RÉELLES",
+        "description": "Application à l’automatisation de flux ERP, la réconciliation de données et le routage intelligent de commandes. Objectif : créer des briques autonomes sans introduire d’instabilité dans les systèmes existants."
       }
     ]
   },
@@ -141,23 +141,23 @@
     "subtitle": "Au-delà du terminal",
     "aviation": {
       "title": "AVIATION",
-      "description": "En vol, chaque échange compte : pas de place pour l'approximation. Cette exigence, je la retrouve dans la manière dont je construis des systèmes fiables et propres.",
+      "description": "En aviation, la précision est critique : chaque message doit être clair et sans ambiguïté. Cette exigence se transpose directement dans la conception de systèmes fiables.",
       "instagramLabel": "Club Planeur",
       "instagramUrl": "https://www.instagram.com/planeurstrasbourg/"
     },
     "astronomy": {
       "title": "ASTRONOMIE",
-      "description": "L'astronomie apprend une chose : l'échelle. Quand tu regardes une étoile à 400/500 années-lumière, tu regardes le passé. Les systèmes d'information ont leur propre temporalité, des données générées il y a des années conditionnent les décisions aujourd'hui."
+      "description": "L’astronomie rappelle la notion d’échelle et de temps. Dans les systèmes d’information, les données passées influencent en permanence les décisions présentes."
     },
     "volleyball": {
       "title": "VOLLEY",
-      "description": "Au filet, le timing et la confiance dans l'équipe font la différence. Lire le jeu, anticiper, communiquer, mais le plus important c'est la 3ème mi-temps."
+      "description": "Sport collectif rapide où timing, anticipation et coordination sont essentiels. Ces principes se traduisent directement dans la conception de systèmes distribués."
     }
   },
   "contact": {
     "title": "CONTACT",
     "subtitle": "Prêt à collaborer ?",
-    "description": "Pour un projet, une mission de développement ou simplement échanger,",
+    "description": "Pour un projet, une mission d’intégration ou un échange technique,",
     "email": "contact@rb-rubydev.fr",
     "cta": "ENVOYER UN MESSAGE"
   },
@@ -166,61 +166,11 @@
     "backToHome": "← RETOUR ACCUEIL"
   },
   "footer": {
-    "copy": "© 2026 RuBy,rb-rubydev.fr",
+    "copy": "© 2026 RuBy, rb-rubydev.fr",
     "links": [
       { "label": "Mentions légales", "href": "/legal" },
       { "label": "Confidentialité", "href": "/privacy" }
     ],
     "astroNote": "// RA 05h 34m 32s,Dec +22° 00' 52\",M1, Nébuleuse du Crabe"
-  },
-  "legal": {
-    "title": "MENTIONS LÉGALES",
-    "sections": [
-      {
-        "title": "Éditeur du site",
-        "content": "Le site rb-rubydev.fr est édité par RuBy, identité professionnelle. Contact : contact@rb-rubydev.fr"
-      },
-      {
-        "title": "Hébergement",
-        "content": "Le site est hébergé sur un serveur privé virtuel (VPS). Pour toute question relative à l'hébergement, contacter contact@rb-rubydev.fr"
-      },
-      {
-        "title": "Propriété intellectuelle",
-        "content": "L'ensemble du contenu de ce site (textes, visuels, code) est la propriété exclusive de RuBy. Toute reproduction, même partielle, est interdite sans autorisation préalable."
-      },
-      {
-        "title": "Responsabilité",
-        "content": "RuBy s'efforce de maintenir les informations de ce site à jour et exactes. Toutefois, aucune garantie n'est donnée quant à l'exactitude, la complétude ou l'actualité des informations publiées."
-      },
-      {
-        "title": "Cookies",
-        "content": "Ce site n'utilise pas de cookies de suivi ou publicitaires. Des données techniques minimales peuvent être conservées localement (préférences audio, easter eggs trouvés) via localStorage, dans votre navigateur uniquement."
-      }
-    ]
-  },
-  "privacy": {
-    "title": "POLITIQUE DE CONFIDENTIALITÉ",
-    "sections": [
-      {
-        "title": "Données collectées",
-        "content": "Ce site ne collecte aucune donnée personnelle. Aucun formulaire, aucun tracking, aucun cookie tiers n'est déployé."
-      },
-      {
-        "title": "Stockage local",
-        "content": "Certaines préférences (volume audio, thème) et données de jeu (easter eggs trouvés) sont stockées dans votre navigateur via localStorage. Ces données ne quittent pas votre appareil."
-      },
-      {
-        "title": "Logs serveur",
-        "content": "Le serveur peut conserver des logs techniques (adresse IP, pages visitées, horodatage) pour des raisons de sécurité et de débogage, conformément à la réglementation en vigueur. Ces logs ne sont pas exploités à des fins commerciales."
-      },
-      {
-        "title": "Contact",
-        "content": "Si vous envoyez un email à contact@rb-rubydev.fr, votre adresse et le contenu de votre message seront utilisés uniquement pour vous répondre."
-      },
-      {
-        "title": "Droits",
-        "content": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Contactez contact@rb-rubydev.fr pour toute demande."
-      }
-    ]
   }
 }

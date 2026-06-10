@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RuBy, Developer",
-    "description": "Portfolio of RuBy, ERP/e-commerce integration (Sage X3, Odoo, PrestaShop, Shopify), data flow architecture, AI & autonomous agents development. Master in Big Data at Epitech.",
+    "description": "Portfolio of RuBy, ERP/e-commerce integration (Sage X3, Odoo, PrestaShop, Shopify), data flow architecture, AI systems & autonomous agents. Master in Big Data at Epitech.",
     "siteUrl": "https://rb-rubydev.fr",
     "contact": "contact@rb-rubydev.fr"
   },
@@ -16,8 +16,8 @@
   },
   "hero": {
     "title": "RuBy",
-    "tagline": "ERP module developer // FLOW ARCHITECT // Endangered developer",
-    "subtitle": "From order flows to autonomous agents, I connect systems and program their intelligence.",
+    "tagline": "ERP integration developer // FLOW ARCHITECT // Systems & AI builder",
+    "subtitle": "From order pipelines to autonomous systems, I design and connect business-critical infrastructures.",
     "cta": "START"
   },
   "parcours": {
@@ -34,9 +34,9 @@
         "year": "2022–2024",
         "level": "LVL 1",
         "title": "IRIS Mediaschool",
-        "role": "Web & digital development training",
-        "description": "Two years at IRIS Mediaschool building technical and digital foundations, from coding to UI, from business logic to creative tools.",
-        "tags": ["WEB", "DIGITAL", "DEV"]
+        "role": "Web & software foundations",
+        "description": "Two years building technical fundamentals: software development, UI logic, data structures, and applied digital projects.",
+        "tags": ["WEB", "DEV", "FOUNDATIONS"]
       },
       {
         "id": "econocom",
@@ -44,8 +44,8 @@
         "level": "MISSION",
         "title": "Econocom",
         "role": "IT Technician (apprenticeship)",
-        "description": "Apprenticeship alongside IRIS. Deployments, infrastructure, technical support, first exposure to complex enterprise environments.",
-        "tags": ["INFRA", "IT", "APPRENTICESHIP"]
+        "description": "Infrastructure operations, deployment, user support, and exposure to enterprise-scale IT environments with operational constraints.",
+        "tags": ["INFRA", "IT", "OPS"]
       },
       {
         "id": "cesi",
@@ -53,8 +53,8 @@
         "level": "LVL 2",
         "title": "CESI",
         "role": "Bachelor in Computer Science",
-        "description": "Studies at CESI, strengthening software development, project management and application architecture foundations.",
-        "tags": ["BACHELOR", "DEV", "ARCHITECTURE"]
+        "description": "Strengthening of software engineering principles, system design, and project architecture methodologies.",
+        "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
       },
       {
         "id": "sodilog-licence",
@@ -62,7 +62,7 @@
         "level": "MISSION",
         "title": "Sodilog",
         "role": "Developer (apprenticeship)",
-        "description": "First data flow architectures: e-commerce ↔ ERP synchronization, Shopify and PrestaShop APIs, order tracking setup.",
+        "description": "Design of first production-grade data flows: e-commerce ↔ ERP synchronization, API integrations, and order lifecycle tracking.",
         "tags": ["ERP", "API", "FLOW"]
       },
       {
@@ -71,8 +71,8 @@
         "level": "LVL 3",
         "title": "Epitech",
         "role": "Master AI & Big Data [ONGOING]",
-        "description": "Expert Master in Artificial Intelligence and Big Data at Epitech, designing autonomous agents, decision models, and large-scale data pipelines.",
-        "tags": ["AI", "BIGDATA", "AGENTS", "ONGOING"]
+        "description": "Advanced studies in AI systems, distributed data pipelines, and autonomous agent design applied to real-world constraints.",
+        "tags": ["AI", "BIGDATA", "SYSTEMS", "ONGOING"]
       },
       {
         "id": "sodilog-master",
@@ -80,20 +80,20 @@
         "level": "MISSION",
         "title": "Sodilog",
         "role": "Flow & AI Architect (apprenticeship)",
-        "description": "Design of advanced data flow architectures, integration of E-commerce ↔ Sage X3, development of tools and AI agents for business optimization.",
-        "tags": ["ODOO", "SHOPIFY", "SAGE X3", "AGENTS", "FLOW"]
+        "description": "Architecture of complex data flows between ERP and e-commerce systems (Sage X3, Shopify, Odoo). Design of automation layers and AI-assisted operational tools.",
+        "tags": ["SAGE X3", "SHOPIFY", "ODOO", "AI", "FLOW"]
       }
     ]
   },
   "expertise": {
     "title": "EXPERTISE",
     "subtitle": "Stack & integration",
-    "intro": "At Sodilog, I designed end-to-end data flow architectures: from an order placed on PrestaShop or Shopify to its synchronization in Sage X3, as well as interconnecting client Odoo instances with our ERP",
+    "intro": "At Sodilog, I design end-to-end data flow architectures connecting e-commerce platforms (PrestaShop, Shopify) with ERP systems (Sage X3, Odoo), including synchronization, reconciliation, and operational reliability constraints.",
     "blocks": [
       {
         "id": "erp-flux",
         "title": "ERP & Data Flow Integration",
-        "description": "Order flow architecture between e-commerce platforms (PrestaShop, Shopify) and ERP systems (Sage X3, Odoo). Real-time stock tracking, bidirectional synchronization of products and pricing, logistics traceability. Web orders are automatically injected into the ERP with no manual intervention.",
+        "description": "Design of robust order pipelines between e-commerce platforms (PrestaShop, Shopify) and ERP systems (Sage X3, Odoo). Includes stock synchronization, pricing consistency, bidirectional product updates, and order reconciliation mechanisms under real operational constraints.",
         "techs": [
           { "name": "Sage X3", "logo": "/img/sage.png" },
           { "name": "Odoo", "logo": "/img/odoo.png" },
@@ -104,7 +104,7 @@
       {
         "id": "dev-apps",
         "title": "App & API Development",
-        "description": "Design and implementation of data bridges to ensure interoperability between e-commerce platforms (Shopify, PrestaShop, Odoo) and Sodilog’s ERP. Shopify apps (Node.js) and API connectors, REST APIs for data exchange between heterogeneous systems, including file tracking, transfer and full data flow management, as well as reconciliation processes.",
+        "description": "Development of integration layers between heterogeneous systems. Shopify apps (Node.js), REST APIs, and custom connectors ensuring reliable data exchange, synchronization, and traceability across ERP and e-commerce ecosystems.",
         "techs": [
           { "name": "Node.js", "logo": null },
           { "name": "TypeScript", "logo": null },
@@ -116,23 +116,23 @@
   "agents": {
     "title": "AI & AGENTS",
     "subtitle": "Agent philosophy",
-    "intro": "As part of my Big Data Master at Epitech, I work on agent-based systems. The goal is not just to use AI models, but to build systems capable of making decisions in real and constrained environments.",
+    "intro": "In my Big Data Master at Epitech, I design agent-based systems focused on controllability, observability, and real-world constraints rather than pure autonomy or black-box behavior.",
 
     "principles": [
       {
         "id": "why",
-        "title": "WHY AN AGENT?",
-        "description": "An agent goes beyond a classic script. Instead of executing a fixed sequence of actions, it adapts its behavior based on observations. In ERP flows or complex business processes, this difference becomes essential to handle uncertainty."
+        "title": "WHY AGENTS",
+        "description": "An agent extends beyond scripted automation by adapting its behavior based on context and observations. In ERP and business systems, this enables dynamic handling of uncertainty, exceptions, and operational variability."
       },
       {
         "id": "how",
         "title": "HOW I DESIGN THEM",
-        "description": "I always start from the business need before the technology. I define a simple loop: objective, context, possible actions, constraints. Only then do I choose tools (LLMs, rules, APIs). I prioritize readable, testable and controllable systems over opaque architectures."
+        "description": "I start from the business problem before selecting any technology. I define a structured loop: objective, context, actions, constraints, and observability. Then I implement using a mix of APIs, rule-based logic, and LLMs when relevant. I prioritize predictability and testability over complexity."
       },
       {
         "id": "context",
-        "title": "IN MY CONTEXT",
-        "description": "I apply them to real-world problems: ERP flow automation, data reconciliation, or intelligent order routing. The idea is to build autonomous building blocks that improve existing systems without making them unstable or unpredictable."
+        "title": "REAL-WORLD APPLICATIONS",
+        "description": "Applied to ERP automation, data reconciliation, and intelligent routing systems. The goal is to build modular autonomous components that improve existing infrastructures without introducing instability or unpredictable behavior."
       }
     ]
   },
@@ -141,23 +141,23 @@
     "subtitle": "Beyond the terminal",
     "aviation": {
       "title": "AVIATION",
-      "description": "In flight, every exchange matters: no room for approximation. I apply this same rigor when building reliable and clean systems.",
+      "description": "In aviation, precision and clarity are critical: every message must be unambiguous. I apply the same discipline when designing reliable systems and operational pipelines.",
       "instagramLabel": "Gliding Club",
       "instagramUrl": "https://www.instagram.com/planeurstrasbourg/"
     },
     "astronomy": {
       "title": "ASTRONOMY",
-      "description": "Astronomy teaches scale. When you look at a star 400–500 light years away, you are looking into the past. Information systems have their own time scale: past data still shapes present decisions."
+      "description": "Astronomy provides a perspective on scale and time. In data systems, historical information continuously influences present decisions through accumulated state."
     },
     "volleyball": {
       "title": "VOLLEYBALL",
-      "description": "At the net, timing and team trust make the difference. Reading the game, anticipating, communicating — but most importantly: the third half."
+      "description": "A fast-paced team environment where timing, anticipation, and coordination are essential. Decision-making under pressure translates directly into system design thinking."
     }
   },
   "contact": {
     "title": "CONTACT",
     "subtitle": "Ready to collaborate?",
-    "description": "For a project, a development mission, or just a conversation,",
+    "description": "For a project, an integration mission, or a technical discussion,",
     "email": "contact@rb-rubydev.fr",
     "cta": "SEND A MESSAGE"
   },
@@ -186,15 +186,15 @@
       },
       {
         "title": "Intellectual property",
-        "content": "All content on this website (texts, visuals, code) is the exclusive property of RuBy. Any reproduction, even partial, is prohibited without prior authorization."
+        "content": "All content on this website (texts, visuals, code) is the exclusive property of RuBy. Unauthorized reproduction is prohibited."
       },
       {
         "title": "Liability",
-        "content": "RuBy strives to keep the information on this website up to date and accurate. However, no guarantee is given regarding the accuracy, completeness, or timeliness of the published information."
+        "content": "Information is provided for general purposes. No guarantee is given regarding accuracy or completeness."
       },
       {
         "title": "Cookies",
-        "content": "This website does not use tracking or advertising cookies. Minimal local data may be stored (audio preferences, easter eggs) via localStorage in your browser only."
+        "content": "No tracking cookies are used. Only local browser storage may be used for preferences and UX features."
       }
     ]
   },
@@ -203,23 +203,23 @@
     "sections": [
       {
         "title": "Data collected",
-        "content": "This website does not collect any personal data. No forms, no tracking, no third-party cookies are used."
+        "content": "No personal data is actively collected by this website."
       },
       {
         "title": "Local storage",
-        "content": "Some preferences (volume, theme) and game data (found easter eggs) are stored locally in your browser via localStorage. This data never leaves your device."
+        "content": "User preferences may be stored locally in the browser via localStorage only."
       },
       {
         "title": "Server logs",
-        "content": "The server may store technical logs (IP address, visited pages, timestamps) for security and debugging purposes, in compliance with applicable regulations. These logs are not used for commercial purposes."
+        "content": "Technical logs (IP, timestamps, pages visited) may be stored for security and debugging purposes only."
       },
       {
         "title": "Contact",
-        "content": "If you email contact@rb-rubydev.fr, your address and message content will only be used to respond to you."
+        "content": "Emails sent to contact@rb-rubydev.fr are used solely for response purposes."
       },
       {
         "title": "Rights",
-        "content": "In accordance with GDPR, you have the right to access, rectify, and delete your data. Contact contact@rb-rubydev.fr for any request."
+        "content": "Users may request access or deletion of their data in accordance with GDPR regulations."
       }
     ]
   }
