@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "RuBy, Développeur",
     description:
-      "Architecture de flux, intégration ERP/e-commerce, agents autonomes. Master BiData Epitech.",
+      "Architecture de flux, intégration ERP/e-commerce. Master Big Data Epitech.",
     url: siteUrl,
     siteName: "RuBy",
     type: "website",
