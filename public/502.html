@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Service indisponible,RuBy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0D0D0D;
+      color: #E8E8E8;
+      font-family: 'Press Start 2P', monospace;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .container { text-align: center; max-width: 480px; }
+    h1 {
+      color: #C41E3A;
+      font-size: clamp(16px, 4vw, 28px);
+      text-shadow: 3px 3px 0 #8B0000;
+      margin-bottom: 1.5rem;
+    }
+    .code {
+      font-size: clamp(32px, 8vw, 64px);
+      color: #C41E3A;
+      text-shadow: 4px 4px 0 #8B0000;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+    .msg {
+      font-family: monospace;
+      font-size: 16px;
+      color: #888;
+      line-height: 1.6;
+      border: 2px solid #C41E3A;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+    .msg span { color: #00D4FF; }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border: 2px solid #C41E3A;
+      color: #C41E3A;
+      text-decoration: none;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 10px;
+    }
+    .btn:hover { background: #C41E3A; color: #E8E8E8; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SERVICE INDISPONIBLE</h1>
+    <span class="code">502</span>
+    <div class="msg">
+      <p><span>&gt; </span>ERROR: upstream not responding</p>
+      <br />
+      <p>Le service est temporairement indisponible.</p>
+      <p>Réessaie dans quelques instants.</p>
+    </div>
+    <a href="/" class="btn">↺ RÉESSAYER</a>
+  </div>
+</body>
+</html>

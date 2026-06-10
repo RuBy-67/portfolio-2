@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "title": "RuBy, Developer",
+    "description": "Portfolio of RuBy, ERP/e-commerce integration (Sage X3, Odoo, PrestaShop, Shopify), data flow architecture, AI & autonomous agents development. Big Data Master's at Epitech.",
+    "siteUrl": "https://rb-rubydev.fr",
+    "contact": "contact@rb-rubydev.fr"
+  },
+  "nav": {
+    "links": [
+      { "label": "CAREER", "href": "#parcours" },
+      { "label": "EXPERTISE", "href": "#expertise" },
+      { "label": "AI & AGENTS", "href": "#agents" },
+      { "label": "BEYOND", "href": "#beyond" },
+      { "label": "CONTACT", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "title": "RuBy",
+    "tagline": "ERP INTEGRATOR // FLOW ARCHITECT // Developer on the verge of extinction",
+    "subtitle": "From order flows to autonomous agents, I connect systems and program their intelligence.",
+    "cta": "START"
+  },
+  "parcours": {
+    "title": "CAREER",
+    "subtitle": "Progression levels",
+    "xp": {
+      "scrollHint": "Scroll to unlock history...",
+      "maxHint": "MAX LEVEL reached 🎮",
+      "stepsHint": "{count}/{total} steps unlocked"
+    },
+    "items": [
+      {
+        "id": "iris",
+        "year": "2022–2024",
+        "level": "LVL 1",
+        "title": "IRIS Media School",
+        "role": "Web & digital development program",
+        "description": "Two years at IRIS Media School building technical and digital foundations, from coding to interfaces, from business logic to creative tools.",
+        "tags": ["WEB", "DIGITAL", "DEV"]
+      },
+      {
+        "id": "econocom",
+        "year": "2022–2024",
+        "level": "MISSION",
+        "title": "Econocom",
+        "role": "IT Technician (apprenticeship)",
+        "description": "Apprenticeship alongside studies. Deployments, infrastructure, technical support — first exposure to complex professional environments.",
+        "tags": ["INFRA", "IT", "APPRENTICESHIP"]
+      },
+      {
+        "id": "cesi",
+        "year": "2024–2025",
+        "level": "LVL 2",
+        "title": "CESI",
+        "role": "Bachelor’s in Computer Science",
+        "description": "Bachelor’s degree at CESI, strengthening foundations in software development, project management, and system architecture.",
+        "tags": ["BACHELOR", "DEV", "ARCHITECTURE"]
+      },
+      {
+        "id": "sodilog-licence",
+        "year": "2024–2025",
+        "level": "MISSION",
+        "title": "Sodilog",
+        "role": "ERP integration developer (apprenticeship)",
+        "description": "First data flow architectures: e-commerce ↔ ERP synchronization, Shopify and PrestaShop APIs, order tracking implementation.",
+        "tags": ["ERP", "API", "FLOW"]
+      },
+      {
+        "id": "epitech",
+        "year": "2025–2027",
+        "level": "LVL 3",
+        "title": "Epitech",
+        "role": "Master’s in AI & Big Data [IN PROGRESS]",
+        "description": "Master’s program in artificial intelligence and big data at Epitech, designing autonomous agents, decision models, and large-scale data pipelines.",
+        "tags": ["AI", "BIG DATA", "AGENTS", "IN PROGRESS"]
+      },
+      {
+        "id": "sodilog-master",
+        "year": "2025–2027",
+        "level": "MISSION",
+        "title": "Sodilog",
+        "role": "Flow & AI Architect (apprenticeship)",
+        "description": "Design of advanced data flow architectures, integration between e-commerce and Sage X3, development of tools and AI agents to optimize business processes.",
+        "tags": ["ODOO", "SAGE X3", "AGENTS", "FLOW"]
+      }
+    ]
+  },
+  "expertise": {
+    "title": "EXPERTISE",
+    "subtitle": "Stack & integration",
+    "intro": "At Sodilog, I designed end-to-end data flow architectures: from an order placed on PrestaShop or Shopify to its synchronization into Sage X3, as well as interconnecting client Odoo instances with our ERP.",
+    "blocks": [
+      {
+        "id": "erp-flux",
+        "title": "ERP & Data Flow Integration",
+        "description": "Order flow architecture between e-commerce platforms (PrestaShop, Shopify) and ERP systems (Sage X3, Odoo). Real-time stock tracking, bidirectional synchronization of products and pricing, logistics traceability. Web orders are directly injected into the ERP with no manual intervention — this is the flow.",
+        "techs": [
+          { "name": "Sage X3", "logo": "/img/sage.png" },
+          { "name": "Odoo", "logo": "/img/odoo.png" },
+          { "name": "PrestaShop", "logo": "/img/prestashop.png" },
+          { "name": "Shopify", "logo": "/img/shopify.png" }
+        ]
+      },
+      {
+        "id": "dev-apps",
+        "title": "Apps & API Development",
+        "description": "Design and implementation of data bridges ensuring interoperability between e-commerce platforms (Shopify, PrestaShop, Odoo) and Sodilog’s ERP. Development of Shopify apps (Node.js) and API connectors, REST API implementation for data exchange between heterogeneous systems, including file tracking, transfer, and full data flow management, as well as reconciliation processes.",
+        "techs": [
+          { "name": "Node.js", "logo": null },
+          { "name": "TypeScript", "logo": null },
+          { "name": "REST API", "logo": null }
+        ]
+      }
+    ]
+  },
+  "agents": {
+    "title": "AI & AGENTS",
+    "subtitle": "Agentic philosophy",
+    "intro": "As part of my Master’s in Big Data at Epitech, I work on designing autonomous agents — not just using AI tools, but understanding why and how these models make decisions.",
+    "principles": [
+      {
+        "id": "why",
+        "title": "WHY AN AGENT?",
+        "description": "An agent is a system that observes its environment, decides, and acts in a loop. While a script executes a fixed sequence, an agent adapts its behavior to context. For complex ERP flows or non-linear business processes, this is the difference between automation and intelligence."
+      },
+      {
+        "id": "how",
+        "title": "HOW I DESIGN THEM",
+        "description": "I start from the business problem, not the model. I first define the reasoning loop (goal, observations, actions, constraints), then choose the appropriate solution. Simplicity is my priority to reduce risk. I favor traceable and predictable architectures, because a system whose decisions are opaque or whose error rate is unacceptable is not viable."
+      },
+      {
+        "id": "context",
+        "title": "IN MY CONTEXT",
+        "description": "Automation of data reconciliation flows and exploration of solutions for intelligent order routing or predictive stock analysis. My approach is to design autonomous software components that enhance existing business logic while ensuring strict control and traceability."
+      }
+    ]
+  },
+  "beyond": {
+    "title": "BEYOND THE CODE",
+    "subtitle": "Beyond the terminal",
+    "aviation": {
+      "title": "AVIATION",
+      "description": "Glider pilot at the Strasbourg club, I also manage their Instagram account. In flight, every message matters — no room for approximation when you're hundreds of meters above the ground. I bring that same rigor into building reliable and clean systems.",
+      "instagramLabel": "Strasbourg Gliding Club",
+      "instagramUrl": "https://www.instagram.com/planeurstrasbourg/"
+    },
+    "astronomy": {
+      "title": "ASTRONOMY",
+      "description": "Astronomy teaches scale. When you observe a star 400–500 light years away, you are looking into the past. Information systems have their own temporality too — data generated years ago can still influence today’s decisions."
+    },
+    "volleyball": {
+      "title": "VOLLEYBALL",
+      "description": "At the net, timing and trust in the team make the difference. Reading the game, anticipating, communicating clearly."
+    }
+  },
+  "contact": {
+    "title": "CONTACT",
+    "subtitle": "Ready to collaborate?",
+    "description": "For a project, a development mission, or simply to talk, one address is enough.",
+    "email": "contact@rb-rubydev.fr",
+    "cta": "SEND A MESSAGE"
+  },
+  "common": {
+    "backHome": "← HOME",
+    "backToHome": "← BACK HOME"
+  },
+  "footer": {
+    "copy": "© 2026 RuBy,rb-rubydev.fr",
+    "links": [
+      { "label": "Legal Notice", "href": "/legal" },
+      { "label": "Privacy", "href": "/privacy" }
+    ],
+    "astroNote": "// RA 05h 34m 32s,Dec +22° 00' 52\",M1, Crab Nebula"
+  },
+  "legal": {
+    "title": "LEGAL NOTICE",
+    "sections": [
+      {
+        "title": "Site Publisher",
+        "content": "The website rb-rubydev.fr is published by RuBy, professional identity. Contact: contact@rb-rubydev.fr"
+      },
+      {
+        "title": "Hosting",
+        "content": "The site is hosted on a virtual private server (VPS). For any hosting-related inquiries, contact contact@rb-rubydev.fr"
+      },
+      {
+        "title": "Intellectual Property",
+        "content": "All content on this site (text, visuals, code) is the exclusive property of RuBy. Any reproduction, even partial, is prohibited without prior authorization."
+      },
+      {
+        "title": "Liability",
+        "content": "RuBy strives to keep the information on this site up to date and accurate. However, no guarantee is given regarding accuracy, completeness, or timeliness."
+      },
+      {
+        "title": "Cookies",
+        "content": "This site does not use tracking or advertising cookies. Minimal local technical data may be stored (audio preferences, discovered easter eggs) via localStorage in your browser only."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "PRIVACY POLICY",
+    "sections": [
+      {
+        "title": "Data Collected",
+        "content": "This site does not collect any personal data. No forms, tracking, or third-party cookies are used."
+      },
+      {
+        "title": "Local Storage",
+        "content": "Some preferences (volume, theme) and game data (discovered easter eggs) are stored in your browser via localStorage. This data never leaves your device."
+      },
+      {
+        "title": "Server Logs",
+        "content": "The server may store technical logs (IP address, visited pages, timestamps) for security and debugging purposes, in compliance with regulations. These logs are not used for commercial purposes."
+      },
+      {
+        "title": "Contact",
+        "content": "If you send an email to contact@rb-rubydev.fr, your email address and message content will only be used to respond to you."
+      },
+      {
+        "title": "Rights",
+        "content": "In accordance with GDPR, you have the right to access, rectify, and delete your data. Contact contact@rb-rubydev.fr for any request."
+      }
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-press-start: "Press Start 2P";
+  --font-vt323: "VT323";
+  --color-bg: #0d0d0d;
+  --color-bg-secondary: #1a1a1a;
+  --color-surface: #1e1e1e;
+  --color-text: #e8e8e8;
+  --color-muted: #888888;
+  --color-ruby: #c41e3a;
+  --color-ruby-dark: #8b0000;
+  --color-cyan: #00d4ff;
+  --color-yellow: #ffd700;
+  --color-green: #00ff41;
+}
+
+/* ─── Base ─────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-ruby) var(--color-bg-secondary);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-vt323), monospace;
+  font-size: 20px;
+  line-height: 1.6;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+  overflow-x: hidden;
+}
+
+/* ─── Scrollbar ─────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ruby);
+}
+
+/* ─── Selection ─────────────────────────────────── */
+::selection {
+  background: var(--color-ruby);
+  color: var(--color-text);
+}
+
+/* ─── Typography ─────────────────────────────────── */
+h1, h2, h3 {
+  font-family: var(--font-press-start), monospace;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+}
+
+/* ─── Pixel borders utility ─────────────────────── */
+.pixel-border {
+  border: 2px solid var(--color-ruby);
+  box-shadow: 4px 4px 0 var(--color-ruby);
+}
+
+.pixel-border-cyan {
+  border: 2px solid var(--color-cyan);
+  box-shadow: 4px 4px 0 var(--color-cyan);
+}
+
+.pixel-border-yellow {
+  border: 2px solid var(--color-yellow);
+  box-shadow: 4px 4px 0 var(--color-yellow);
+}
+
+/* ─── Pixel button ───────────────────────────────── */
+.btn-pixel {
+  font-family: var(--font-press-start), monospace;
+  font-size: 12px;
+  padding: 12px 24px;
+  background: transparent;
+  color: var(--color-ruby);
+  border: 2px solid var(--color-ruby);
+  box-shadow: 3px 3px 0 var(--color-ruby);
+  cursor: pointer;
+  transition: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  image-rendering: pixelated;
+}
+
+.btn-pixel:hover {
+  background: var(--color-ruby);
+  color: var(--color-text);
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+.btn-pixel:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+.btn-pixel-cyan {
+  color: var(--color-cyan);
+  border-color: var(--color-cyan);
+  box-shadow: 3px 3px 0 var(--color-cyan);
+}
+
+.btn-pixel-cyan:hover {
+  background: var(--color-cyan);
+  color: var(--color-bg);
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+/* ─── Pixel card ─────────────────────────────────── */
+.pixel-card {
+  background: var(--color-surface);
+  border: 2px solid var(--color-ruby);
+  box-shadow: 4px 4px 0 var(--color-ruby);
+  padding: 24px;
+}
+
+.pixel-card-cyan {
+  border-color: var(--color-cyan);
+  box-shadow: 4px 4px 0 var(--color-cyan);
+}
+
+.pixel-card-yellow {
+  border-color: var(--color-yellow);
+  box-shadow: 4px 4px 0 var(--color-yellow);
+}
+
+/* ─── Section title ──────────────────────────────── */
+.section-title {
+  font-family: var(--font-press-start), monospace;
+  font-size: clamp(14px, 2.5vw, 22px);
+  color: var(--color-ruby);
+  text-shadow: 2px 2px 0 var(--color-ruby-dark);
+  letter-spacing: 0.08em;
+}
+
+.section-subtitle {
+  font-family: var(--font-vt323), monospace;
+  font-size: 20px;
+  color: var(--color-cyan);
+  letter-spacing: 0.1em;
+}
+
+/* ─── Scanlines overlay ──────────────────────────── */
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .scanlines {
+    animation: scanline-move 8s linear infinite;
+  }
+}
+
+/* ─── Cursor blink ───────────────────────────────── */
+.cursor-blink::after {
+  content: "█";
+  color: var(--color-ruby);
+  animation: blink 1s step-end infinite;
+  margin-left: 4px;
+}
+
+/* ─── Terminal text ──────────────────────────────── */
+.terminal-text {
+  font-family: var(--font-vt323), monospace;
+  color: var(--color-green);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.terminal-prompt::before {
+  content: "> ";
+  color: var(--color-cyan);
+}
+
+/* ─── XP bar ─────────────────────────────────────── */
+.xp-bar {
+  height: 8px;
+  background: var(--color-bg-secondary);
+  border: 2px solid var(--color-ruby);
+  overflow: hidden;
+}
+
+.xp-fill {
+  height: 100%;
+  background: var(--color-ruby);
+  transition: width 1s ease-out;
+}
+
+/* ─── Pixel image ────────────────────────────────── */
+img.pixel {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* ─── Stars background ───────────────────────────── */
+.stars-bg {
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 80% 10%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 60% 80%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 90% 50%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 20% 90%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 70% 40%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 45% 15%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 15% 75%, rgba(0,212,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 85% 85%, rgba(255,215,0,0.3) 0%, transparent 100%);
+}
+
+/* ─── Tag badge ──────────────────────────────────── */
+.pixel-tag {
+  font-family: var(--font-press-start), monospace;
+  font-size: 8px;
+  padding: 4px 8px;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-muted);
+  color: var(--color-muted);
+  letter-spacing: 0.05em;
+}
+
+.pixel-tag-ruby {
+  border-color: var(--color-ruby);
+  color: var(--color-ruby);
+}
+
+.pixel-tag-cyan {
+  border-color: var(--color-cyan);
+  color: var(--color-cyan);
+}
+
+.pixel-tag-yellow {
+  border-color: var(--color-yellow);
+  color: var(--color-yellow);
+}
+
+/* ─── Link ───────────────────────────────────────── */
+a.pixel-link {
+  color: var(--color-cyan);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-cyan);
+  transition: none;
+}
+
+a.pixel-link:hover {
+  color: var(--color-yellow);
+  border-bottom-color: var(--color-yellow);
+}
+
+/* ─── Focus visible ──────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 2px;
+}
+
+/* ─── Divider ────────────────────────────────────── */
+.pixel-divider {
+  border: none;
+  border-top: 2px solid var(--color-ruby);
+  opacity: 0.4;
+  margin: 0;
+}
+
+/* ─── Game Over text ─────────────────────────────── */
+.game-over {
+  font-family: var(--font-press-start), monospace;
+  color: var(--color-ruby);
+  text-shadow:
+    0 0 10px var(--color-ruby),
+    0 0 20px var(--color-ruby-dark),
+    4px 4px 0 var(--color-ruby-dark);
+  animation: blink 2s step-end infinite;
+}
+
+/* ─── Animations ─────────────────────────────────── */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes scanline-move {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 100%; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-1px, 1px); }
+  80% { transform: translate(1px, -1px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes matrix-rain {
+  from { transform: translateY(-100%); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  to { transform: translateY(100vh); opacity: 0; }
+}
+
+/* ─── Responsive ─────────────────────────────────── */
+@media (max-width: 640px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: clamp(18px, 7vw, 36px);
+  }
+
+  .btn-pixel {
+    font-size: 10px;
+    padding: 10px 16px;
+  }
+}
