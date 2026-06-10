@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RuBy, Développeur",
-    "description": "Portfolio de RuBy, intégration ERP/e-commerce (Sage X3, Odoo, PrestaShop, Shopify), architecture de flux, systèmes IA et agents autonomes. Master Big Data à Epitech.",
+    "description": "Portfolio de RuBy, développement backend et architecture de flux entre systèmes e-commerce (Shopify, PrestaShop) et ERP (Sage X3, Odoo), systèmes IA et agents autonomes. Master Big Data à Epitech.",
     "siteUrl": "https://rb-rubydev.fr",
     "contact": "contact@rb-rubydev.fr"
   },
@@ -16,8 +16,8 @@
   },
   "hero": {
     "title": "RuBy",
-    "tagline": "Développeur ERP // ARCHITECTE DE FLUX // Systèmes & IA",
-    "subtitle": "Du pipeline de commandes aux systèmes autonomes, je conçois et connecte des infrastructures métier critiques.",
+    "tagline": "Développeur backend // ARCHITECTE DE FLUX // Systèmes & IA",
+    "subtitle": "Du pipeline de commandes aux systèmes autonomes, je conçois des architectures qui connectent et automatisent les systèmes métier.",
     "cta": "DÉMARRER"
   },
   "parcours": {
@@ -34,8 +34,8 @@
         "year": "2022–2024",
         "level": "LVL 1",
         "title": "IRIS Mediaschool",
-        "role": "Fondations en développement web & logiciel",
-        "description": "Deux ans de formation axés sur les fondamentaux du développement logiciel : logique applicative, interfaces, structures de données et projets numériques.",
+        "role": "Fondations en développement logiciel",
+        "description": "Formation aux fondamentaux du développement : logique applicative, interfaces, structures de données et projets numériques.",
         "tags": ["WEB", "DEV", "FOUNDATIONS"]
       },
       {
@@ -44,7 +44,7 @@
         "level": "MISSION",
         "title": "Econocom",
         "role": "Technicien informatique (alternance)",
-        "description": "Exploitation d'infrastructures IT, déploiements, support utilisateur et confrontation à des environnements d'entreprise à forte contrainte opérationnelle.",
+        "description": "Gestion d'infrastructures IT, déploiements, support utilisateur et immersion dans des environnements d'entreprise à forte contrainte opérationnelle.",
         "tags": ["INFRA", "IT", "OPS"]
       },
       {
@@ -53,7 +53,7 @@
         "level": "LVL 2",
         "title": "CESI",
         "role": "Bachelor Informatique",
-        "description": "Renforcement des bases en ingénierie logicielle, architecture applicative et gestion de projet technique.",
+        "description": "Approfondissement en ingénierie logicielle, architecture applicative et gestion de projets techniques.",
         "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
       },
       {
@@ -62,7 +62,7 @@
         "level": "MISSION",
         "title": "Sodilog",
         "role": "Développeur (alternance)",
-        "description": "Conception des premiers flux de production : synchronisation e-commerce ↔ ERP, intégration API Shopify et PrestaShop, suivi du cycle de commande.",
+        "description": "Conception de flux de données entre e-commerce et systèmes ERP : synchronisation Shopify / PrestaShop, APIs et suivi du cycle de commande.",
         "tags": ["ERP", "API", "FLUX"]
       },
       {
@@ -71,7 +71,7 @@
         "level": "LVL 3",
         "title": "Epitech",
         "role": "Master IA & Big Data [EN COURS]",
-        "description": "Master en intelligence artificielle et big data : conception de systèmes d’IA, agents autonomes et pipelines de données distribués.",
+        "description": "Formation avancée en intelligence artificielle, systèmes distribués et pipelines de données à grande échelle.",
         "tags": ["IA", "BIGDATA", "AGENTS", "EN COURS"]
       },
       {
@@ -79,21 +79,21 @@
         "year": "2025–2027",
         "level": "MISSION",
         "title": "Sodilog",
-        "role": "Architecte flux & IA (alternance)",
-        "description": "Conception d’architectures de flux avancées entre ERP et e-commerce (Sage X3, Shopify, Odoo). Mise en place de couches d’automatisation et d’outils IA appliqués aux processus métier.",
-        "tags": ["SAGE X3", "SHOPIFY", "ODOO", "IA", "FLUX"]
+        "role": "Architecte de flux & systèmes (alternance)",
+        "description": "Conception d'architectures de flux entre systèmes e-commerce (Shopify, PrestaShop) et ERP (Sage X3, Odoo). Mise en place de couches d’automatisation et de fiabilité des données.",
+        "tags": ["SAGE X3", "SHOPIFY", "ODOO", "FLUX"]
       }
     ]
   },
   "expertise": {
     "title": "EXPERTISE",
-    "subtitle": "Stack & intégration",
-    "intro": "Chez Sodilog, j’ai conçu des architectures de flux de bout en bout reliant les plateformes e-commerce (PrestaShop, Shopify) aux ERP (Sage X3, Odoo), avec gestion de la synchronisation, de la cohérence des données et des contraintes opérationnelles.",
+    "subtitle": "Stack & architecture",
+    "intro": "Chez Sodilog, je conçois des architectures de flux reliant les plateformes e-commerce (Shopify, PrestaShop) aux ERP (Sage X3, Odoo), avec des enjeux de synchronisation, cohérence et automatisation des données.",
     "blocks": [
       {
         "id": "erp-flux",
-        "title": "Intégration ERP & Flux",
-        "description": "Conception de pipelines de commandes entre e-commerce (PrestaShop, Shopify) et ERP (Sage X3, Odoo). Gestion du stock en temps réel, synchronisation bidirectionnelle des produits et des prix, traçabilité logistique et mécanismes de réconciliation des données en environnement réel.",
+        "title": "Flux de données & systèmes ERP",
+        "description": "Conception de pipelines entre e-commerce et ERP. Synchronisation des commandes, gestion du stock en temps réel, cohérence des prix et des produits, et mécanismes de réconciliation des données en environnement de production.",
         "techs": [
           { "name": "Sage X3", "logo": "/img/sage.png" },
           { "name": "Odoo", "logo": "/img/odoo.png" },
@@ -103,8 +103,8 @@
       },
       {
         "id": "dev-apps",
-        "title": "Développement d'applications & APIs",
-        "description": "Conception de couches d’intégration entre systèmes hétérogènes. Développement d’apps Shopify (Node.js), connecteurs API et REST APIs pour assurer l’échange, la traçabilité et la cohérence des données entre ERP et plateformes e-commerce.",
+        "title": "Développement backend & APIs",
+        "description": "Conception de systèmes d’intégration entre plateformes hétérogènes. Développement d’applications Node.js, connecteurs API et services REST pour assurer la communication et la cohérence des données.",
         "techs": [
           { "name": "Node.js", "logo": null },
           { "name": "TypeScript", "logo": null },
@@ -116,23 +116,23 @@
   "agents": {
     "title": "IA & AGENTS",
     "subtitle": "Philosophie agentique",
-    "intro": "Dans le cadre de mon Master Big Data à Epitech, je conçois des systèmes agentiques centrés sur la contrôlabilité, l’observabilité et les contraintes réelles plutôt que sur des modèles purement autonomes ou opaques.",
+    "intro": "Dans le cadre de mon Master Big Data à Epitech, je développe des systèmes agentiques centrés sur la contrôlabilité, l’observabilité et les contraintes réelles plutôt que sur des modèles opaques ou entièrement autonomes.",
 
     "principles": [
       {
         "id": "why",
         "title": "POURQUOI UN AGENT ?",
-        "description": "Un agent va au-delà d’un script classique : il adapte ses actions en fonction du contexte et des observations. Dans des systèmes ERP ou des processus métier complexes, cela permet de gérer les exceptions et l’incertitude opérationnelle."
+        "description": "Un agent permet de dépasser l’automatisation classique en adaptant son comportement au contexte et aux observations. Dans des systèmes métiers complexes, cela permet de gérer les exceptions et l’incertitude."
       },
       {
         "id": "how",
         "title": "COMMENT JE LES CONÇOIS",
-        "description": "Je pars du besoin métier avant la technologie. Je définis une boucle simple : objectif, contexte, actions, contraintes et observabilité. Puis je choisis les outils (API, règles, LLM si nécessaire). Je privilégie des systèmes testables et prévisibles plutôt que des architectures opaques."
+        "description": "Je pars du besoin métier avant la technologie. Je définis une boucle simple : objectif, contexte, actions possibles, contraintes et observabilité. J’utilise ensuite API, règles et LLM si nécessaire, avec une priorité donnée à la fiabilité et à la testabilité."
       },
       {
         "id": "context",
         "title": "APPLICATIONS RÉELLES",
-        "description": "Application à l’automatisation de flux ERP, la réconciliation de données et le routage intelligent de commandes. Objectif : créer des briques autonomes sans introduire d’instabilité dans les systèmes existants."
+        "description": "Automatisation de flux ERP, réconciliation de données et routage intelligent de commandes. Objectif : créer des systèmes autonomes sans introduire d’instabilité dans les infrastructures existantes."
       }
     ]
   },
@@ -141,23 +141,23 @@
     "subtitle": "Au-delà du terminal",
     "aviation": {
       "title": "AVIATION",
-      "description": "En aviation, la précision est critique : chaque message doit être clair et sans ambiguïté. Cette exigence se transpose directement dans la conception de systèmes fiables.",
+      "description": "En aviation, la précision et la clarté sont essentielles. Cette rigueur s’applique directement à la conception de systèmes fiables et robustes.",
       "instagramLabel": "Club Planeur",
       "instagramUrl": "https://www.instagram.com/planeurstrasbourg/"
     },
     "astronomy": {
       "title": "ASTRONOMIE",
-      "description": "L’astronomie rappelle la notion d’échelle et de temps. Dans les systèmes d’information, les données passées influencent en permanence les décisions présentes."
+      "description": "L’astronomie apporte une compréhension de l’échelle et du temps. Dans les systèmes d’information, les données historiques influencent continuellement les décisions actuelles."
     },
     "volleyball": {
       "title": "VOLLEY",
-      "description": "Sport collectif rapide où timing, anticipation et coordination sont essentiels. Ces principes se traduisent directement dans la conception de systèmes distribués."
+      "description": "Sport collectif où le timing, l’anticipation et la coordination sont essentiels. Ces principes se transposent directement dans la conception de systèmes distribués."
     }
   },
   "contact": {
     "title": "CONTACT",
     "subtitle": "Prêt à collaborer ?",
-    "description": "Pour un projet, une mission d’intégration ou un échange technique,",
+    "description": "Pour un projet, une mission technique ou un échange,",
     "email": "contact@rb-rubydev.fr",
     "cta": "ENVOYER UN MESSAGE"
   },
