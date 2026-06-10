@@ -25,13 +25,13 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://rb-rubydev.fr";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "RuBy,Intégrateur ERP & Développeur IA",
+    default: "RuBy, Développeur",
     template: "%s | RuBy",
   },
   description:
     "Portfolio de RuBy,intégration ERP/e-commerce (Sage X3, Odoo, PrestaShop, Shopify), architecture de flux, développement IA & agents autonomes.",
   keywords: [
-    "intégrateur ERP",
+    "Developpeur module ERP",
     "Sage X3",
     "Odoo",
     "PrestaShop",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "développeur",
   ],
   openGraph: {
-    title: "RuBy,Intégrateur ERP & Développeur IA",
+    title: "RuBy, Développeur",
     description:
       "Architecture de flux, intégration ERP/e-commerce, agents autonomes. Master BiData Epitech.",
     url: siteUrl,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "RuBy,Intégrateur ERP & Développeur IA",
+    title: "RuBy, Développeur",
     description: "Architecture de flux, intégration ERP/e-commerce, agents autonomes.",
   },
   robots: {

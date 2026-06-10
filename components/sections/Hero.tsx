@@ -73,7 +73,7 @@ export function Hero() {
           style={{ fontSize: "10px" }}
           aria-hidden="true"
         >
-         ,PLAYER 1 ,
+         - PLAYER 1 -
         </p>
 
         {/* Clickable title (easter egg on 5 clicks) */}

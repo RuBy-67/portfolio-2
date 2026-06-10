@@ -401,7 +401,7 @@ function processCommand(
     case "whoami":
       lines = [
         { type: "success", text: isRoot ? "root" : "RuBy" },
-        { type: "output", text: "Intégrateur ERP,Architecte de flux,Agent IA" },
+        { type: "output", text: "Developpeur module ERP,Architecte de flux,Agent IA" },
         { type: "output", text: "Location: Strasbourg, FR" },
         { type: "output", text: `Privileges: ${isRoot ? "root ⚡" : "user"}` },
       ];
