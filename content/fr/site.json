@@ -172,5 +172,55 @@
       { "label": "Confidentialité", "href": "/privacy" }
     ],
     "astroNote": "// RA 05h 34m 32s,Dec +22° 00' 52\",M1, Nébuleuse du Crabe"
+  },
+  "legal": {
+    "title": "MENTIONS LÉGALES",
+    "sections": [
+      {
+        "title": "Éditeur du site",
+        "content": "Le site rb-rubydev.fr est édité par RuBy. Contact : contact@rb-rubydev.fr"
+      },
+      {
+        "title": "Hébergement",
+        "content": "Le site est hébergé sur un serveur privé virtuel (VPS). Pour toute question relative à l'hébergement, contactez contact@rb-rubydev.fr"
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "content": "L'ensemble du contenu de ce site (textes, visuels, code) est la propriété exclusive de RuBy. Toute reproduction non autorisée est interdite."
+      },
+      {
+        "title": "Responsabilité",
+        "content": "Les informations sont fournies à titre indicatif. Aucune garantie n'est donnée quant à leur exactitude ou exhaustivité."
+      },
+      {
+        "title": "Cookies",
+        "content": "Aucun cookie de tracking n'est utilisé. Seul le stockage local du navigateur peut être utilisé pour les préférences et fonctionnalités UX."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "POLITIQUE DE CONFIDENTIALITÉ",
+    "sections": [
+      {
+        "title": "Données collectées",
+        "content": "Aucune donnée personnelle n'est activement collectée par ce site."
+      },
+      {
+        "title": "Stockage local",
+        "content": "Les préférences utilisateur peuvent être stockées localement dans le navigateur via localStorage uniquement."
+      },
+      {
+        "title": "Logs serveur",
+        "content": "Des logs techniques (IP, horodatages, pages visitées) peuvent être conservés à des fins de sécurité et de débogage uniquement."
+      },
+      {
+        "title": "Contact",
+        "content": "Les e-mails envoyés à contact@rb-rubydev.fr sont utilisés uniquement pour répondre à votre demande."
+      },
+      {
+        "title": "Droits",
+        "content": "Conformément au RGPD, vous pouvez demander l'accès ou la suppression de vos données."
+      }
+    ]
   }
 }
