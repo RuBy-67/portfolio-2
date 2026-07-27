@@ -25,7 +25,7 @@ export function PixelCard({
   return (
     <div className={`${variantClass} ${className}`}>
       {title && (
-        <div className="font-pixel text-xs mb-4 text-ruby">{title}</div>
+        <div className="font-display text-sm font-semibold mb-4 text-ruby">{title}</div>
       )}
       {children}
     </div>

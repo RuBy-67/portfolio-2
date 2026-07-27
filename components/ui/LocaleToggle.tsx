@@ -13,7 +13,7 @@ export function LocaleToggle() {
 
   return (
     <div
-      className="flex border-2 border-surface"
+      className="flex border border-white/10 rounded-md overflow-hidden"
       role="group"
       aria-label="Choisir la langue"
     >
@@ -24,11 +24,10 @@ export function LocaleToggle() {
             key={id}
             type="button"
             onClick={() => setLocale(id)}
-            className="font-pixel transition-none px-2 py-1"
+            className="font-body text-xs px-2.5 py-1.5 transition-colors"
             style={{
-              fontSize: "8px",
               background: active ? "#C41E3A" : "transparent",
-              color: active ? "#E8E8E8" : "#888888",
+              color: active ? "#ECECF0" : "#8B8B96",
             }}
             aria-pressed={active}
           >

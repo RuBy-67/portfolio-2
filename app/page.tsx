@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { Timeline } from "@/components/sections/Timeline";
+import { Projects } from "@/components/sections/Projects";
 import { Expertise } from "@/components/sections/Expertise";
 import { AgentsPhilosophy } from "@/components/sections/AgentsPhilosophy";
 import { BeyondCode } from "@/components/sections/BeyondCode";
@@ -14,6 +15,7 @@ export default function HomePage() {
       <main>
         <Hero />
         <Timeline />
+        <Projects />
         <Expertise />
         <AgentsPhilosophy />
         <BeyondCode />

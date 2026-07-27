@@ -23,11 +23,7 @@ export function Contact() {
   }, []);
 
   return (
-    <section
-      id="contact"
-      className="py-24 px-4"
-      aria-label="Contact"
-    >
+    <section id="contact" className="py-24 px-4" aria-label="Contact">
       <div className="max-w-2xl mx-auto text-center">
         <div
           ref={ref}
@@ -35,36 +31,26 @@ export function Contact() {
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          {/* Section header */}
-          <p className="section-subtitle mb-2">// {contact.subtitle}</p>
+          <p className="section-subtitle mb-2">{contact.subtitle}</p>
           <h2 className="section-title mb-8">{contact.title}</h2>
 
-          {/* Card */}
           <div className="pixel-card text-left mb-8">
-            <p className="font-mono text-text text-lg leading-relaxed mb-6">
+            <p className="font-body text-muted leading-relaxed mb-6">
               {contact.description}
             </p>
 
-            {/* Email display */}
-            <div className="bg-bg-secondary border border-surface p-4 font-mono text-lg mb-6">
-              <span className="text-muted">$ mail </span>
+            <div className="bg-bg border border-white/5 rounded-lg p-4 font-body text-base mb-6">
+              <span className="text-muted">{contact.emailLabel} </span>
               <span className="text-cyan">{contact.email}</span>
-              <span className="text-ruby animate-blink">█</span>
             </div>
 
             <a
               href={`mailto:${contact.email}`}
-              className="btn-pixel inline-flex items-center gap-3"
-              style={{ fontSize: "10px" }}
+              className="btn-pixel inline-flex items-center gap-2"
             >
-              ✉ {contact.cta}
+              {contact.cta}
             </a>
           </div>
-
-          {/* Decorative pixel heart */}
-          <p className="font-pixel text-muted" style={{ fontSize: "9px" }}>
-            &lt;3 MADE WITH PIXEL ART
-          </p>
         </div>
       </div>
     </section>

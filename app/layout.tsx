@@ -1,22 +1,17 @@
 import type { Metadata } from "next";
-import { Press_Start_2P, VT323 } from "next/font/google";
+import { Syne, DM_Sans } from "next/font/google";
 import "./globals.css";
-import { Scanlines } from "@/components/ui/Scanlines";
-import { AmbientPlayer } from "@/components/audio/AmbientPlayer";
-import { EasterEggProvider } from "@/components/easter-eggs/EasterEggProvider";
 import { LocaleProvider } from "@/components/providers/LocaleProvider";
 
-const pressStart2P = Press_Start_2P({
-  weight: "400",
+const syne = Syne({
   subsets: ["latin"],
-  variable: "--font-press-start",
+  variable: "--font-display",
   display: "swap",
 });
 
-const vt323 = VT323({
-  weight: "400",
+const dmSans = DM_Sans({
   subsets: ["latin"],
-  variable: "--font-vt323",
+  variable: "--font-body",
   display: "swap",
 });
 
@@ -25,26 +20,28 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://rb-rubydev.fr";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "RuBy, Développeur",
+    default: "RuBy, développeur & architecte de flux",
     template: "%s | RuBy",
   },
   description:
-    "Portfolio de RuBy,intégration ERP/e-commerce (Sage X3, Odoo, PrestaShop, Shopify), architecture de flux, développement IA & agents autonomes.",
+    "Portfolio de RuBy : co-fondateur de Normly, intégration ERP / e-commerce chez Sodilog, outils web et Master Big Data à Epitech.",
   keywords: [
-    "Développeur module ERP",
+    "développeur",
+    "architecte de flux",
     "Sage X3",
     "Odoo",
     "PrestaShop",
     "Shopify",
-    "agents IA",
-    "BiData",
-    "flux de commandes",
-    "développeur",
+    "Thelia",
+    "Normly",
+    "Sodilog",
+    "Sodilink",
+    "intégration ERP",
   ],
   openGraph: {
-    title: "RuBy, Développeur",
+    title: "RuBy, développeur & architecte de flux",
     description:
-      "Architecture de flux, intégration ERP/e-commerce. Master Big Data Epitech.",
+      "Co-fondateur de Normly, intégration ERP / e-commerce et architectures de flux. Master Big Data Epitech.",
     url: siteUrl,
     siteName: "RuBy",
     type: "website",
@@ -52,8 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "RuBy, Développeur",
-    description: "Architecture de flux, intégration ERP/e-commerce, agents autonomes.",
+    title: "RuBy, développeur & architecte de flux",
+    description: "Co-fondateur de Normly, intégration ERP / e-commerce et architectures de flux.",
   },
   robots: {
     index: true,
@@ -66,9 +63,7 @@ export const metadata: Metadata = {
       { url: "/img/icons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
     apple: "/img/icons/apple-touch-icon.png",
-    other: [
-      { rel: "manifest", url: "/img/icons/site.webmanifest" },
-    ],
+    other: [{ rel: "manifest", url: "/img/icons/site.webmanifest" }],
   },
 };
 
@@ -78,17 +73,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="fr"
-      className={`${pressStart2P.variable} ${vt323.variable}`}
-    >
+    <html lang="fr" className={`${syne.variable} ${dmSans.variable}`}>
       <body>
-        <LocaleProvider>
-          <Scanlines />
-          <AmbientPlayer />
-          <EasterEggProvider />
-          {children}
-        </LocaleProvider>
+        <LocaleProvider>{children}</LocaleProvider>
       </body>
     </html>
   );

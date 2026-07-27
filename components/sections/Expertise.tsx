@@ -32,26 +32,21 @@ function ExpertiseBlock({
   return (
     <div
       ref={ref}
-      className={`pixel-card ${index === 0 ? "" : "pixel-card-cyan"} transition-all duration-500 ${
+      className={`pixel-card transition-all duration-500 ${
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
       }`}
       style={{ transitionDelay: `${index * 150}ms` }}
     >
-      <h3
-        className={`font-pixel mb-4 ${index === 0 ? "text-ruby" : "text-cyan"}`}
-        style={{ fontSize: "11px" }}
-      >
+      <h3 className={`font-display font-semibold text-lg mb-4 ${index === 0 ? "text-ruby" : "text-cyan"}`}>
         {block.title}
       </h3>
 
-      <p className="font-mono text-text text-lg leading-relaxed mb-6">
-        {block.description}
-      </p>
+      <p className="font-body text-muted leading-relaxed mb-6">{block.description}</p>
 
       {block.techs.length > 0 && (
         <>
           {block.techs.some((t) => t.logo) && (
-            <ul className="mt-4 pt-4 border-t border-surface space-y-2.5">
+            <ul className="mt-4 pt-4 border-t border-white/5 space-y-2.5">
               {block.techs
                 .filter((tech) => tech.logo)
                 .map((tech) => (
@@ -62,15 +57,13 @@ function ExpertiseBlock({
                         alt=""
                         width={24}
                         height={24}
-                        className="pixel object-contain w-6 h-6 max-w-6 max-h-6 opacity-90"
+                        className="object-contain w-6 h-6 opacity-90"
                         onError={(e) => {
                           (e.target as HTMLImageElement).style.display = "none";
                         }}
                       />
                     </div>
-                    <span className="font-pixel text-text" style={{ fontSize: "8px" }}>
-                      {tech.name}
-                    </span>
+                    <span className="font-body text-sm text-text">{tech.name}</span>
                   </li>
                 ))}
             </ul>
@@ -78,17 +71,13 @@ function ExpertiseBlock({
           {block.techs.some((t) => !t.logo) && (
             <div
               className={`flex flex-wrap items-center gap-x-4 gap-y-2 ${
-                block.techs.some((t) => t.logo) ? "mt-3" : "mt-4 pt-4 border-t border-surface"
+                block.techs.some((t) => t.logo) ? "mt-3" : "mt-4 pt-4 border-t border-white/5"
               }`}
             >
               {block.techs
                 .filter((tech) => !tech.logo)
                 .map((tech) => (
-                  <span
-                    key={tech.name}
-                    className="font-pixel text-muted"
-                    style={{ fontSize: "8px" }}
-                  >
+                  <span key={tech.name} className="font-body text-xs text-muted tracking-wide uppercase">
                     {tech.name}
                   </span>
                 ))}
@@ -104,32 +93,18 @@ export function Expertise() {
   const { expertise } = useSiteContent();
 
   return (
-    <section
-      id="expertise"
-      className="py-24 px-4 bg-bg-secondary"
-      aria-label="Expertise technique"
-    >
+    <section id="expertise" className="py-24 px-4 bg-bg-secondary" aria-label="Expertise technique">
       <div className="max-w-4xl mx-auto">
-        {/* Section header */}
         <div className="mb-12 text-center">
-          <p className="section-subtitle mb-2">// {expertise.subtitle}</p>
+          <p className="section-subtitle mb-2">{expertise.subtitle}</p>
           <h2 className="section-title">{expertise.title}</h2>
         </div>
 
-        {/* Intro narrative */}
-        <div className="pixel-card pixel-card-yellow mb-10">
-          <div className="flex items-start gap-3">
-            <span className="font-pixel text-yellow shrink-0" style={{ fontSize: "10px" }}>
-              ◆
-            </span>
-            <p className="font-mono text-text text-lg leading-relaxed">
-              {expertise.intro}
-            </p>
-          </div>
+        <div className="pixel-card mb-10 border-l-[3px] border-l-yellow">
+          <p className="font-body text-text leading-relaxed">{expertise.intro}</p>
         </div>
 
-        {/* Expertise blocks */}
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {expertise.blocks.map((block, index) => (
             <ExpertiseBlock key={block.id} block={block} index={index} />
           ))}

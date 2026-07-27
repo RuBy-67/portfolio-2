@@ -1,99 +1,201 @@
 {
   "meta": {
-    "title": "RuBy, Développeur",
-    "description": "Portfolio de RuBy, développement backend et architecture de flux entre systèmes e-commerce (Shopify, PrestaShop) et ERP (Sage X3, Odoo), systèmes IA et agents autonomes. Master Big Data à Epitech.",
+    "title": "RuBy, développeur & architecte de flux",
+    "description": "Portfolio de RuBy : co-fondateur de Normly, intégration ERP / e-commerce chez Sodilog, outils web et Master Big Data à Epitech.",
     "siteUrl": "https://rb-rubydev.fr",
     "contact": "contact@rb-rubydev.fr"
   },
   "nav": {
     "links": [
-      { "label": "PARCOURS", "href": "#parcours" },
-      { "label": "EXPERTISE", "href": "#expertise" },
-      { "label": "IA & AGENTS", "href": "#agents" },
-      { "label": "BEYOND", "href": "#beyond" },
-      { "label": "CONTACT", "href": "#contact" }
+      { "label": "Parcours", "href": "#parcours" },
+      { "label": "Projets", "href": "#projets" },
+      { "label": "Expertise", "href": "#expertise" },
+      { "label": "IA & Agents", "href": "#agents" },
+      { "label": "Beyond", "href": "#beyond" },
+      { "label": "Contact", "href": "#contact" }
     ]
   },
   "hero": {
     "title": "RuBy",
-    "tagline": "Développeur backend // ARCHITECTE DE FLUX // Systèmes & IA",
-    "subtitle": "Du pipeline de commandes aux systèmes autonomes, je conçois des architectures qui connectent et automatisent les systèmes métier.",
-    "cta": "DÉMARRER"
+    "tagline": "Co-fondateur de Normly. Développeur d'architectures de flux et d'outils métier.",
+    "subtitle": "Je construis des produits SaaS et des systèmes d'intégration fiables, de la conformité médicale aux pipelines ERP / e-commerce.",
+    "cta": "Voir les projets",
+    "ctaSecondary": "Me contacter"
   },
   "parcours": {
-    "title": "PARCOURS",
-    "subtitle": "Progression de niveau",
+    "title": "Parcours",
+    "subtitle": "Formation et expérience",
     "xp": {
-      "scrollHint": "Scroll pour débloquer l'historique...",
-      "maxHint": "LVL MAX atteint 🎮",
-      "stepsHint": "{count}/{total} étapes débloquées"
+      "scrollHint": "Faites défiler pour parcourir le parcours…",
+      "maxHint": "Parcours complet",
+      "stepsHint": "{count}/{total} étapes visibles"
     },
+    "formation": {
+      "title": "Formation",
+      "items": [
+        {
+          "id": "iris",
+          "year": "2022–2024",
+          "level": "LVL 1",
+          "title": "IRIS Mediaschool",
+          "role": "Fondations en développement logiciel",
+          "description": "Formation aux fondamentaux du développement : logique applicative, interfaces, structures de données et projets numériques.",
+          "tags": ["WEB", "DEV", "FOUNDATIONS"]
+        },
+        {
+          "id": "cesi",
+          "year": "2024–2025",
+          "level": "LVL 2",
+          "title": "CESI",
+          "role": "Bachelor Informatique",
+          "description": "Approfondissement en ingénierie logicielle, architecture applicative et gestion de projets techniques.",
+          "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
+        },
+        {
+          "id": "epitech",
+          "year": "2025–2027",
+          "level": "LVL 3",
+          "title": "Epitech",
+          "role": "Master IA & Big Data [EN COURS]",
+          "description": "Formation avancée en intelligence artificielle, systèmes distribués et pipelines de données à grande échelle.",
+          "tags": ["IA", "BIGDATA", "AGENTS", "EN COURS"]
+        }
+      ]
+    },
+    "experience": {
+      "title": "Expérience professionnelle",
+      "items": [
+        {
+          "id": "econocom",
+          "year": "2022–2024",
+          "level": "MISSION",
+          "title": "Econocom",
+          "role": "Technicien informatique (alternance)",
+          "description": "Gestion d'infrastructures IT, déploiements, support utilisateur et immersion dans des environnements d'entreprise à forte contrainte opérationnelle.",
+          "tags": ["INFRA", "IT", "OPS"]
+        },
+        {
+          "id": "sodilog-licence",
+          "year": "2024–2025",
+          "level": "MISSION",
+          "title": "Sodilog",
+          "role": "Développeur (alternance)",
+          "description": "Premiers flux de production entre e-commerce et ERP : synchronisation commandes / stocks, connecteurs API et suivi du cycle logistique.",
+          "tags": ["ERP", "API", "FLUX"]
+        },
+        {
+          "id": "sodilog-master",
+          "year": "2025–2027",
+          "level": "MISSION",
+          "title": "Sodilog",
+          "role": "Architecte de flux & systèmes (alternance)",
+          "description": "Conception de Sodilflow (Sage X3 ↔ Shopify, PrestaShop, Odoo, Thelia), de Sodilink, de l’intranet métier et de la refonte du site Sodilog.",
+          "tags": ["SAGE X3", "SODILFLOW", "SODILINK", "THELIA", "FLUX"]
+        }
+      ]
+    }
+  },
+  "projets": {
+    "title": "Projets",
+    "subtitle": "Réalisations concrètes",
+    "intro": "Produits SaaS, plateformes logistiques et outils web livrés en conditions réelles.",
     "items": [
       {
-        "id": "iris",
-        "year": "2022–2024",
-        "level": "LVL 1",
-        "title": "IRIS Mediaschool",
-        "role": "Fondations en développement logiciel",
-        "description": "Formation aux fondamentaux du développement : logique applicative, interfaces, structures de données et projets numériques.",
-        "tags": ["WEB", "DEV", "FOUNDATIONS"]
+        "id": "normly",
+        "title": "Normly",
+        "role": "Co-fondateur",
+        "description": "SaaS de conformité pour cabinets médicaux : pilotage du DUERP, obligations ERP / incendie, alertes automatiques, archivage légal et rapports prêts pour un contrôle.",
+        "logo": "/img/normly.jpg",
+        "monogram": "N",
+        "tags": ["SaaS", "Next.js", "Conformité", "DUERP"],
+        "links": [
+          { "label": "normly.fr", "href": "https://normly.fr/" },
+          { "label": "LinkedIn", "href": "https://www.linkedin.com/company/normly-app/" }
+        ],
+        "internalNote": null
       },
       {
-        "id": "econocom",
-        "year": "2022–2024",
-        "level": "MISSION",
-        "title": "Econocom",
-        "role": "Technicien informatique (alternance)",
-        "description": "Gestion d'infrastructures IT, déploiements, support utilisateur et immersion dans des environnements d'entreprise à forte contrainte opérationnelle.",
-        "tags": ["INFRA", "IT", "OPS"]
+        "id": "spl",
+        "title": "SPL Planeur",
+        "role": "Conception & développement",
+        "description": "Plateforme de révision pour l’examen théorique SPL planeur : QCM interactifs sur 9 thèmes du programme officiel, quiz par thème ou examen blanc, avec explications pédagogiques. Accès libre, sans compte.",
+        "logo": "/img/planneur.png",
+        "monogram": "SPL",
+        "tags": ["Next.js", "Aviation", "Éducation"],
+        "links": [
+          { "label": "spl.rb-rubydev.fr", "href": "https://spl.rb-rubydev.fr/" }
+        ],
+        "internalNote": null
       },
       {
-        "id": "cesi",
-        "year": "2024–2025",
-        "level": "LVL 2",
-        "title": "CESI",
-        "role": "Bachelor Informatique",
-        "description": "Approfondissement en ingénierie logicielle, architecture applicative et gestion de projets techniques.",
-        "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
+        "id": "sodilog-site",
+        "title": "Sodilog (site web)",
+        "role": "Conception & développement",
+        "description": "Refonte du site corporate Sodilog (logistique B2B / B2C depuis 1986) : présentation des services, parcours devis, i18n FR/EN. Le site historique sodilog.com est en cours de migration.",
+        "logo": "/img/sodilog.avif",
+        "monogram": "S",
+        "tags": ["Next.js", "i18n", "Logistique"],
+        "links": [
+          { "label": "Voir la preview", "href": "https://sodilog.rb-rubydev.fr/fr" }
+        ],
+        "internalNote": null
       },
       {
-        "id": "sodilog-licence",
-        "year": "2024–2025",
-        "level": "MISSION",
-        "title": "Sodilog",
-        "role": "Développeur (alternance)",
-        "description": "Conception de flux de données entre e-commerce et systèmes ERP : synchronisation Shopify / PrestaShop, APIs et suivi du cycle de commande.",
-        "tags": ["ERP", "API", "FLUX"]
+        "id": "sodilflow",
+        "title": "Sodilflow",
+        "role": "Conception & développement",
+        "description": "Hub d’intégration entre Sage X3 (API Sage) et les sites e-commerce des commettants (Shopify, Odoo, PrestaShop, Thelia) : remontée des commandes, descente des stocks et numéros de tracking, plus transferts journaliers de fichiers (factures, documents PLA, fichiers internes) entre serveurs et Sage.",
+        "logo": "/img/sodilink.png",
+        "monogram": "SF",
+        "tags": ["Sage X3", "Shopify", "PrestaShop", "Odoo", "Thelia", "API"],
+        "links": [],
+        "internalNote": "Outil interne Sodilog (non public)"
       },
       {
-        "id": "epitech",
-        "year": "2025–2027",
-        "level": "LVL 3",
-        "title": "Epitech",
-        "role": "Master IA & Big Data [EN COURS]",
-        "description": "Formation avancée en intelligence artificielle, systèmes distribués et pipelines de données à grande échelle.",
-        "tags": ["IA", "BIGDATA", "AGENTS", "EN COURS"]
+        "id": "sodilink",
+        "title": "Sodilink",
+        "role": "Conception & développement",
+        "description": "Plateforme API globale et portail client : synchronisation des flux logistiques avec Sodilog, mises à jour de stocks et suivis en temps réel, connectivité managée (Shopify, Odoo, PrestaShop).",
+        "logo": "/img/sodilink.png",
+        "monogram": "SL",
+        "tags": ["API", "Portail", "E-commerce", "Logistique"],
+        "links": [
+          { "label": "Portail Sodilink", "href": "https://sodilink.sodilog.com/portal" }
+        ],
+        "internalNote": null
       },
       {
-        "id": "sodilog-master",
-        "year": "2025–2027",
-        "level": "MISSION",
-        "title": "Sodilog",
-        "role": "Architecte de flux & systèmes (alternance)",
-        "description": "Conception d'architectures de flux entre systèmes e-commerce (Shopify, PrestaShop) et ERP (Sage X3, Odoo). Mise en place de couches d’automatisation et de fiabilité des données.",
-        "tags": ["SAGE X3", "SHOPIFY", "ODOO", "FLUX"]
+        "id": "intranet",
+        "title": "Intranet Sodilog",
+        "role": "Conception & développement",
+        "description": "Intranet métier pour les équipes Sodilog : outils internes, parcours opérationnels et accès centralisé aux ressources pour les chefs de projet et les opérations.",
+        "logo": "/img/sodilog.avif",
+        "monogram": "IN",
+        "tags": ["Intranet", "Métier", "Ops"],
+        "links": [],
+        "internalNote": "Outil interne Sodilog (non public)"
       }
     ]
   },
   "expertise": {
-    "title": "EXPERTISE",
+    "title": "Expertise",
     "subtitle": "Stack & architecture",
-    "intro": "Chez Sodilog, je conçois des architectures de flux reliant les plateformes e-commerce (Shopify, PrestaShop) aux ERP (Sage X3, Odoo), avec des enjeux de synchronisation, cohérence et automatisation des données.",
+    "intro": "Deux axes principaux : le produit SaaS Normly (conformité médicale), et chez Sodilog l’architecture de flux entre Sage X3 et les plateformes e-commerce (Shopify, PrestaShop, Odoo, Thelia) via Sodilflow et Sodilink.",
     "blocks": [
       {
+        "id": "saas-produit",
+        "title": "Produit SaaS & conformité",
+        "description": "Conception et développement produit autour de Normly : parcours métier, automatisation réglementaire, alertes, archivage et rapports pour cabinets médicaux.",
+        "techs": [
+          { "name": "Next.js", "logo": null },
+          { "name": "TypeScript", "logo": null },
+          { "name": "SaaS", "logo": null }
+        ]
+      },
+      {
         "id": "erp-flux",
-        "title": "Flux de données & systèmes ERP",
-        "description": "Conception de pipelines entre e-commerce et ERP. Synchronisation des commandes, gestion du stock en temps réel, cohérence des prix et des produits, et mécanismes de réconciliation des données en environnement de production.",
+        "title": "Flux ERP & e-commerce",
+        "description": "Pipelines entre e-commerce et Sage X3 : synchronisation des commandes, stock, tracking, cohérence produit / prix, et mécanismes de réconciliation en production.",
         "techs": [
           { "name": "Sage X3", "logo": "/img/sage.png" },
           { "name": "Odoo", "logo": "/img/odoo.png" },
@@ -103,67 +205,72 @@
       },
       {
         "id": "dev-apps",
-        "title": "Développement backend & APIs",
-        "description": "Conception de systèmes d’intégration entre plateformes hétérogènes. Développement d’applications Node.js, connecteurs API et services REST pour assurer la communication et la cohérence des données.",
+        "title": "Backend & APIs",
+        "description": "Couches d’intégration entre systèmes hétérogènes : applications Node.js / TypeScript, connecteurs REST, portails API et automatisation des transferts de fichiers.",
         "techs": [
           { "name": "Node.js", "logo": null },
           { "name": "TypeScript", "logo": null },
-          { "name": "REST API", "logo": null }
+          { "name": "REST API", "logo": null },
+          { "name": "Thelia", "logo": null }
         ]
       }
     ]
   },
   "agents": {
-    "title": "IA & AGENTS",
+    "title": "IA & Agents",
     "subtitle": "Philosophie agentique",
-    "intro": "Dans le cadre de mon Master Big Data à Epitech, je développe des systèmes agentiques centrés sur la contrôlabilité, l’observabilité et les contraintes réelles plutôt que sur des modèles opaques ou entièrement autonomes.",
-
+    "intro": "Dans le cadre de mon Master Big Data à Epitech, je développe des systèmes agentiques centrés sur la contrôlabilité, l’observabilité et les contraintes réelles plutôt que sur des modèles opaques.",
     "principles": [
       {
         "id": "why",
-        "title": "POURQUOI UN AGENT ?",
-        "description": "Un agent permet de dépasser l’automatisation classique en adaptant son comportement au contexte et aux observations. Dans des systèmes métiers complexes, cela permet de gérer les exceptions et l’incertitude."
+        "title": "Pourquoi un agent ?",
+        "description": "Un agent permet de dépasser l’automatisation classique en adaptant son comportement au contexte. Dans des systèmes métiers complexes, cela aide à gérer les exceptions et l’incertitude."
       },
       {
         "id": "how",
-        "title": "COMMENT JE LES CONÇOIS",
-        "description": "Je pars du besoin métier avant la technologie. Je définis une boucle simple : objectif, contexte, actions possibles, contraintes et observabilité. J’utilise ensuite API, règles et LLM si nécessaire, avec une priorité donnée à la fiabilité et à la testabilité."
+        "title": "Comment je les conçois",
+        "description": "Je pars du besoin métier. Boucle simple : objectif, contexte, actions, contraintes, observabilité. Puis API, règles et LLM si nécessaire, avec une priorité à la fiabilité."
       },
       {
         "id": "context",
-        "title": "APPLICATIONS RÉELLES",
-        "description": "Automatisation de flux ERP, réconciliation de données et routage intelligent de commandes. Objectif : créer des systèmes autonomes sans introduire d’instabilité dans les infrastructures existantes."
+        "title": "Applications réelles",
+        "description": "Automatisation de flux ERP, réconciliation de données et routage intelligent. Objectif : des systèmes utiles sans déstabiliser l’existant."
       }
     ]
   },
   "beyond": {
-    "title": "BEYOND THE CODE",
-    "subtitle": "Au-delà du terminal",
+    "title": "Beyond the code",
+    "subtitle": "Au-delà du code",
     "aviation": {
-      "title": "AVIATION",
-      "description": "En aviation, la précision et la clarté sont essentielles. Cette rigueur s’applique directement à la conception de systèmes fiables et robustes.",
-      "instagramLabel": "Club Planeur",
-      "instagramUrl": "https://www.instagram.com/planeurstrasbourg/"
+      "title": "Aviation",
+      "description": "En aviation, la précision et la clarté sont essentielles. Cette rigueur s’applique directement à la conception de systèmes fiables.",
+      "links": [
+        { "label": "planeur-strasbourg.com", "href": "https://planeur-strasbourg.com/" },
+        { "label": "Instagram", "href": "https://www.instagram.com/planeurstrasbourg/" }
+      ]
     },
     "astronomy": {
-      "title": "ASTRONOMIE",
-      "description": "L’astronomie apporte une compréhension de l’échelle et du temps. Dans les systèmes d’information, les données historiques influencent continuellement les décisions actuelles."
+      "title": "Astronomie",
+      "description": "L’astronomie apporte une compréhension de l’échelle et du temps. Dans les SI, l’historique influence continuellement les décisions présentes.",
+      "links": []
     },
     "volleyball": {
-      "title": "VOLLEY",
-      "description": "Sport collectif où le timing, l’anticipation et la coordination sont essentiels. Ces principes se transposent directement dans la conception de systèmes distribués."
+      "title": "Volley",
+      "description": "Sport collectif où le timing, l’anticipation et la coordination sont essentiels, des principes utiles aux systèmes distribués.",
+      "links": []
     }
   },
   "contact": {
-    "title": "CONTACT",
+    "title": "Contact",
     "subtitle": "Prêt à collaborer ?",
     "description": "Pour un projet, une mission technique ou un échange,",
+    "emailLabel": "Email",
     "email": "contact@rb-rubydev.fr",
-    "cta": "ENVOYER UN MESSAGE"
+    "cta": "Envoyer un message"
   },
   "common": {
-    "backHome": "← ACCUEIL",
-    "backToHome": "← RETOUR ACCUEIL"
+    "backHome": "← Accueil",
+    "backToHome": "← Retour accueil"
   },
   "footer": {
     "copy": "© 2026 RuBy, rb-rubydev.fr",
@@ -171,10 +278,10 @@
       { "label": "Mentions légales", "href": "/legal" },
       { "label": "Confidentialité", "href": "/privacy" }
     ],
-    "astroNote": "// RA 05h 34m 32s,Dec +22° 00' 52\",M1, Nébuleuse du Crabe"
+    "astroNote": "// RA 05h 34m 32s, Dec +22° 00' 52\", M1"
   },
   "legal": {
-    "title": "MENTIONS LÉGALES",
+    "title": "Mentions légales",
     "sections": [
       {
         "title": "Éditeur du site",
@@ -199,7 +306,7 @@
     ]
   },
   "privacy": {
-    "title": "POLITIQUE DE CONFIDENTIALITÉ",
+    "title": "Politique de confidentialité",
     "sections": [
       {
         "title": "Données collectées",

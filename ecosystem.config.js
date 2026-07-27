@@ -13,7 +13,6 @@ module.exports = {
         HOSTNAME: "127.0.0.1",
         NEXT_PUBLIC_SITE_URL: "https://rb-rubydev.fr",
         NEXT_PUBLIC_CONTACT_EMAIL: "contact@rb-rubydev.fr",
-        SCORES_DB_PATH: "/var/www/rb-rubydev/data/scores.db",
       },
     },
   ],

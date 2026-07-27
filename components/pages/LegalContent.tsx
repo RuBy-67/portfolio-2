@@ -16,8 +16,7 @@ export function LegalContent() {
           <nav className="mb-8" aria-label="Fil d'Ariane">
             <Link
               href="/"
-              className="font-pixel text-muted hover:text-cyan transition-none"
-              style={{ fontSize: "8px" }}
+              className="font-body text-sm text-muted hover:text-cyan transition-colors"
             >
               {common.backHome}
             </Link>
@@ -30,21 +29,16 @@ export function LegalContent() {
           <div className="space-y-6">
             {legal.sections.map((section) => (
               <div key={section.title} className="pixel-card">
-                <h2
-                  className="font-pixel text-cyan mb-4"
-                  style={{ fontSize: "10px" }}
-                >
+                <h2 className="font-display font-semibold text-cyan text-base mb-3">
                   {section.title}
                 </h2>
-                <p className="font-mono text-text text-lg leading-relaxed">
-                  {section.content}
-                </p>
+                <p className="font-body text-muted leading-relaxed">{section.content}</p>
               </div>
             ))}
           </div>
 
           <div className="mt-10">
-            <Link href="/" className="btn-pixel inline-block" style={{ fontSize: "9px" }}>
+            <Link href="/" className="btn-pixel inline-block">
               {common.backToHome}
             </Link>
           </div>

@@ -1,99 +1,201 @@
 {
   "meta": {
-    "title": "RuBy, Developer",
-    "description": "Portfolio of RuBy, ERP/e-commerce integration (Sage X3, Odoo, PrestaShop, Shopify), data flow architecture, AI systems & autonomous agents. Master in Big Data at Epitech.",
+    "title": "RuBy, developer & flow architect",
+    "description": "Portfolio of RuBy: co-founder of Normly, ERP / e-commerce integration at Sodilog, web tools and Big Data Master's at Epitech.",
     "siteUrl": "https://rb-rubydev.fr",
     "contact": "contact@rb-rubydev.fr"
   },
   "nav": {
     "links": [
-      { "label": "CAREER", "href": "#parcours" },
-      { "label": "EXPERTISE", "href": "#expertise" },
-      { "label": "AI & AGENTS", "href": "#agents" },
-      { "label": "BEYOND", "href": "#beyond" },
-      { "label": "CONTACT", "href": "#contact" }
+      { "label": "Career", "href": "#parcours" },
+      { "label": "Projects", "href": "#projets" },
+      { "label": "Expertise", "href": "#expertise" },
+      { "label": "AI & Agents", "href": "#agents" },
+      { "label": "Beyond", "href": "#beyond" },
+      { "label": "Contact", "href": "#contact" }
     ]
   },
   "hero": {
     "title": "RuBy",
-    "tagline": "ERP integration developer // FLOW ARCHITECT // Systems & AI builder",
-    "subtitle": "From order pipelines to autonomous systems, I design and connect business-critical infrastructures.",
-    "cta": "START"
+    "tagline": "Co-founder of Normly. Developer of flow architectures and business tools.",
+    "subtitle": "I build SaaS products and reliable integration systems, from medical compliance to ERP / e-commerce pipelines.",
+    "cta": "View projects",
+    "ctaSecondary": "Get in touch"
   },
   "parcours": {
-    "title": "CAREER",
-    "subtitle": "Level progression",
+    "title": "Career",
+    "subtitle": "Education and experience",
     "xp": {
-      "scrollHint": "Scroll to unlock history...",
-      "maxHint": "MAX LEVEL reached 🎮",
-      "stepsHint": "{count}/{total} unlocked steps"
+      "scrollHint": "Scroll to explore the timeline…",
+      "maxHint": "Full timeline",
+      "stepsHint": "{count}/{total} steps visible"
     },
+    "formation": {
+      "title": "Education",
+      "items": [
+        {
+          "id": "iris",
+          "year": "2022–2024",
+          "level": "LVL 1",
+          "title": "IRIS Mediaschool",
+          "role": "Web & software foundations",
+          "description": "Two years building technical fundamentals: software development, UI logic, data structures, and applied digital projects.",
+          "tags": ["WEB", "DEV", "FOUNDATIONS"]
+        },
+        {
+          "id": "cesi",
+          "year": "2024–2025",
+          "level": "LVL 2",
+          "title": "CESI",
+          "role": "Bachelor in Computer Science",
+          "description": "Strengthening of software engineering principles, system design, and project architecture methodologies.",
+          "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
+        },
+        {
+          "id": "epitech",
+          "year": "2025–2027",
+          "level": "LVL 3",
+          "title": "Epitech",
+          "role": "Master AI & Big Data [ONGOING]",
+          "description": "Advanced studies in AI systems, distributed data pipelines, and autonomous agent design applied to real-world constraints.",
+          "tags": ["AI", "BIGDATA", "SYSTEMS", "ONGOING"]
+        }
+      ]
+    },
+    "experience": {
+      "title": "Professional experience",
+      "items": [
+        {
+          "id": "econocom",
+          "year": "2022–2024",
+          "level": "MISSION",
+          "title": "Econocom",
+          "role": "IT Technician (apprenticeship)",
+          "description": "Infrastructure operations, deployment, user support, and exposure to enterprise-scale IT environments with operational constraints.",
+          "tags": ["INFRA", "IT", "OPS"]
+        },
+        {
+          "id": "sodilog-licence",
+          "year": "2024–2025",
+          "level": "MISSION",
+          "title": "Sodilog",
+          "role": "Developer (apprenticeship)",
+          "description": "First production-grade data flows: e-commerce ↔ ERP synchronization, API connectors, and logistics lifecycle tracking.",
+          "tags": ["ERP", "API", "FLOW"]
+        },
+        {
+          "id": "sodilog-master",
+          "year": "2025–2027",
+          "level": "MISSION",
+          "title": "Sodilog",
+          "role": "Flow & systems architect (apprenticeship)",
+          "description": "Design of Sodilflow (Sage X3 ↔ Shopify, PrestaShop, Odoo, Thelia), Sodilink, the internal intranet, and the Sodilog website redesign.",
+          "tags": ["SAGE X3", "SODILFLOW", "SODILINK", "THELIA", "FLOW"]
+        }
+      ]
+    }
+  },
+  "projets": {
+    "title": "Projects",
+    "subtitle": "Concrete deliveries",
+    "intro": "SaaS products, logistics platforms and web tools shipped in real conditions.",
     "items": [
       {
-        "id": "iris",
-        "year": "2022–2024",
-        "level": "LVL 1",
-        "title": "IRIS Mediaschool",
-        "role": "Web & software foundations",
-        "description": "Two years building technical fundamentals: software development, UI logic, data structures, and applied digital projects.",
-        "tags": ["WEB", "DEV", "FOUNDATIONS"]
+        "id": "normly",
+        "title": "Normly",
+        "role": "Co-founder",
+        "description": "Compliance SaaS for medical practices: DUERP management, ERP / fire-safety obligations, automatic alerts, legal archiving, and audit-ready reports.",
+        "logo": "/img/normly.jpg",
+        "monogram": "N",
+        "tags": ["SaaS", "Next.js", "Compliance", "DUERP"],
+        "links": [
+          { "label": "normly.fr", "href": "https://normly.fr/" },
+          { "label": "LinkedIn", "href": "https://www.linkedin.com/company/normly-app/" }
+        ],
+        "internalNote": null
       },
       {
-        "id": "econocom",
-        "year": "2022–2024",
-        "level": "MISSION",
-        "title": "Econocom",
-        "role": "IT Technician (apprenticeship)",
-        "description": "Infrastructure operations, deployment, user support, and exposure to enterprise-scale IT environments with operational constraints.",
-        "tags": ["INFRA", "IT", "OPS"]
+        "id": "spl",
+        "title": "SPL Glider",
+        "role": "Design & development",
+        "description": "Revision platform for the theoretical SPL glider exam: interactive MCQs across 9 official syllabus themes, theme quizzes or mock exams, with pedagogical explanations. Free access, no account required.",
+        "logo": "/img/planneur.png",
+        "monogram": "SPL",
+        "tags": ["Next.js", "Aviation", "Education"],
+        "links": [
+          { "label": "spl.rb-rubydev.fr", "href": "https://spl.rb-rubydev.fr/" }
+        ],
+        "internalNote": null
       },
       {
-        "id": "cesi",
-        "year": "2024–2025",
-        "level": "LVL 2",
-        "title": "CESI",
-        "role": "Bachelor in Computer Science",
-        "description": "Strengthening of software engineering principles, system design, and project architecture methodologies.",
-        "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
+        "id": "sodilog-site",
+        "title": "Sodilog (website)",
+        "role": "Design & development",
+        "description": "Redesign of the Sodilog corporate site (B2B / B2C logistics since 1986): services, quote journey, FR/EN i18n. The legacy sodilog.com site is being migrated.",
+        "logo": "/img/sodilog.avif",
+        "monogram": "S",
+        "tags": ["Next.js", "i18n", "Logistics"],
+        "links": [
+          { "label": "View preview", "href": "https://sodilog.rb-rubydev.fr/fr" }
+        ],
+        "internalNote": null
       },
       {
-        "id": "sodilog-licence",
-        "year": "2024–2025",
-        "level": "MISSION",
-        "title": "Sodilog",
-        "role": "Developer (apprenticeship)",
-        "description": "Design of first production-grade data flows: e-commerce ↔ ERP synchronization, API integrations, and order lifecycle tracking.",
-        "tags": ["ERP", "API", "FLOW"]
+        "id": "sodilflow",
+        "title": "Sodilflow",
+        "role": "Design & development",
+        "description": "Integration hub between Sage X3 (Sage API) and client e-commerce platforms (Shopify, Odoo, PrestaShop, Thelia): order intake, stock push, tracking numbers, plus daily file transfers (invoices, PLA docs, internal files) between servers and Sage.",
+        "logo": "/img/sodilink.png",
+        "monogram": "SF",
+        "tags": ["Sage X3", "Shopify", "PrestaShop", "Odoo", "Thelia", "API"],
+        "links": [],
+        "internalNote": "Internal Sodilog tool (not public)"
       },
       {
-        "id": "epitech",
-        "year": "2025–2027",
-        "level": "LVL 3",
-        "title": "Epitech",
-        "role": "Master AI & Big Data [ONGOING]",
-        "description": "Advanced studies in AI systems, distributed data pipelines, and autonomous agent design applied to real-world constraints.",
-        "tags": ["AI", "BIGDATA", "SYSTEMS", "ONGOING"]
+        "id": "sodilink",
+        "title": "Sodilink",
+        "role": "Design & development",
+        "description": "Global API platform and client portal: logistics flow sync with Sodilog, real-time stock and tracking updates, managed connectivity (Shopify, Odoo, PrestaShop).",
+        "logo": "/img/sodilink.png",
+        "monogram": "SL",
+        "tags": ["API", "Portal", "E-commerce", "Logistics"],
+        "links": [
+          { "label": "Sodilink portal", "href": "https://sodilink.sodilog.com/portal" }
+        ],
+        "internalNote": null
       },
       {
-        "id": "sodilog-master",
-        "year": "2025–2027",
-        "level": "MISSION",
-        "title": "Sodilog",
-        "role": "Flow & AI Architect (apprenticeship)",
-        "description": "Architecture of complex data flows between ERP and e-commerce systems (Sage X3, Shopify, Odoo). Design of automation layers and AI-assisted operational tools.",
-        "tags": ["SAGE X3", "SHOPIFY", "ODOO", "AI", "FLOW"]
+        "id": "intranet",
+        "title": "Sodilog Intranet",
+        "role": "Design & development",
+        "description": "Business intranet for Sodilog teams: internal tools, operational workflows, and centralized access for project managers and operations.",
+        "logo": "/img/sodilog.avif",
+        "monogram": "IN",
+        "tags": ["Intranet", "Business", "Ops"],
+        "links": [],
+        "internalNote": "Internal Sodilog tool (not public)"
       }
     ]
   },
   "expertise": {
-    "title": "EXPERTISE",
-    "subtitle": "Stack & integration",
-    "intro": "At Sodilog, I design end-to-end data flow architectures connecting e-commerce platforms (PrestaShop, Shopify) with ERP systems (Sage X3, Odoo), including synchronization, reconciliation, and operational reliability constraints.",
+    "title": "Expertise",
+    "subtitle": "Stack & architecture",
+    "intro": "Two main tracks: the Normly SaaS product (medical compliance), and at Sodilog the flow architecture between Sage X3 and e-commerce platforms (Shopify, PrestaShop, Odoo, Thelia) via Sodilflow and Sodilink.",
     "blocks": [
       {
+        "id": "saas-produit",
+        "title": "SaaS product & compliance",
+        "description": "Product design and development around Normly: business journeys, regulatory automation, alerts, archiving and reports for medical practices.",
+        "techs": [
+          { "name": "Next.js", "logo": null },
+          { "name": "TypeScript", "logo": null },
+          { "name": "SaaS", "logo": null }
+        ]
+      },
+      {
         "id": "erp-flux",
-        "title": "ERP & Data Flow Integration",
-        "description": "Design of robust order pipelines between e-commerce platforms (PrestaShop, Shopify) and ERP systems (Sage X3, Odoo). Includes stock synchronization, pricing consistency, bidirectional product updates, and order reconciliation mechanisms under real operational constraints.",
+        "title": "ERP & e-commerce flows",
+        "description": "Pipelines between e-commerce and Sage X3: order sync, stock, tracking, product / price consistency, and production reconciliation mechanisms.",
         "techs": [
           { "name": "Sage X3", "logo": "/img/sage.png" },
           { "name": "Odoo", "logo": "/img/odoo.png" },
@@ -103,67 +205,72 @@
       },
       {
         "id": "dev-apps",
-        "title": "App & API Development",
-        "description": "Development of integration layers between heterogeneous systems. Shopify apps (Node.js), REST APIs, and custom connectors ensuring reliable data exchange, synchronization, and traceability across ERP and e-commerce ecosystems.",
+        "title": "Backend & APIs",
+        "description": "Integration layers across heterogeneous systems: Node.js / TypeScript apps, REST connectors, API portals and automated file transfers.",
         "techs": [
           { "name": "Node.js", "logo": null },
           { "name": "TypeScript", "logo": null },
-          { "name": "REST API", "logo": null }
+          { "name": "REST API", "logo": null },
+          { "name": "Thelia", "logo": null }
         ]
       }
     ]
   },
   "agents": {
-    "title": "AI & AGENTS",
+    "title": "AI & Agents",
     "subtitle": "Agent philosophy",
-    "intro": "In my Big Data Master at Epitech, I design agent-based systems focused on controllability, observability, and real-world constraints rather than pure autonomy or black-box behavior.",
-
+    "intro": "In my Big Data Master's at Epitech, I design agent-based systems focused on controllability, observability, and real-world constraints rather than opaque autonomy.",
     "principles": [
       {
         "id": "why",
-        "title": "WHY AGENTS",
-        "description": "An agent extends beyond scripted automation by adapting its behavior based on context and observations. In ERP and business systems, this enables dynamic handling of uncertainty, exceptions, and operational variability."
+        "title": "Why agents",
+        "description": "An agent goes beyond scripted automation by adapting to context. In complex business systems, this helps handle exceptions and uncertainty."
       },
       {
         "id": "how",
-        "title": "HOW I DESIGN THEM",
-        "description": "I start from the business problem before selecting any technology. I define a structured loop: objective, context, actions, constraints, and observability. Then I implement using a mix of APIs, rule-based logic, and LLMs when relevant. I prioritize predictability and testability over complexity."
+        "title": "How I design them",
+        "description": "I start from the business need. Simple loop: objective, context, actions, constraints, observability. Then APIs, rules and LLMs when relevant, with reliability first."
       },
       {
         "id": "context",
-        "title": "REAL-WORLD APPLICATIONS",
-        "description": "Applied to ERP automation, data reconciliation, and intelligent routing systems. The goal is to build modular autonomous components that improve existing infrastructures without introducing instability or unpredictable behavior."
+        "title": "Real-world applications",
+        "description": "ERP automation, data reconciliation and intelligent routing. Goal: useful systems that improve infrastructure without introducing instability."
       }
     ]
   },
   "beyond": {
-    "title": "BEYOND THE CODE",
-    "subtitle": "Beyond the terminal",
+    "title": "Beyond the code",
+    "subtitle": "Outside the IDE",
     "aviation": {
-      "title": "AVIATION",
-      "description": "In aviation, precision and clarity are critical: every message must be unambiguous. I apply the same discipline when designing reliable systems and operational pipelines.",
-      "instagramLabel": "Gliding Club",
-      "instagramUrl": "https://www.instagram.com/planeurstrasbourg/"
+      "title": "Aviation",
+      "description": "In aviation, precision and clarity are critical. The same discipline applies when designing reliable systems.",
+      "links": [
+        { "label": "planeur-strasbourg.com", "href": "https://planeur-strasbourg.com/" },
+        { "label": "Instagram", "href": "https://www.instagram.com/planeurstrasbourg/" }
+      ]
     },
     "astronomy": {
-      "title": "ASTRONOMY",
-      "description": "Astronomy provides a perspective on scale and time. In data systems, historical information continuously influences present decisions through accumulated state."
+      "title": "Astronomy",
+      "description": "Astronomy provides perspective on scale and time. In information systems, historical state continuously shapes present decisions.",
+      "links": []
     },
     "volleyball": {
-      "title": "VOLLEYBALL",
-      "description": "A fast-paced team environment where timing, anticipation, and coordination are essential. Decision-making under pressure translates directly into system design thinking."
+      "title": "Volleyball",
+      "description": "A team sport where timing, anticipation and coordination matter, principles that translate well to distributed systems.",
+      "links": []
     }
   },
   "contact": {
-    "title": "CONTACT",
+    "title": "Contact",
     "subtitle": "Ready to collaborate?",
-    "description": "For a project, an integration mission, or a technical discussion,",
+    "description": "For a project, a technical mission, or a conversation,",
+    "emailLabel": "Email",
     "email": "contact@rb-rubydev.fr",
-    "cta": "SEND A MESSAGE"
+    "cta": "Send a message"
   },
   "common": {
-    "backHome": "← HOME",
-    "backToHome": "← BACK HOME"
+    "backHome": "← Home",
+    "backToHome": "← Back home"
   },
   "footer": {
     "copy": "© 2026 RuBy, rb-rubydev.fr",
@@ -171,10 +278,10 @@
       { "label": "Legal Notice", "href": "/legal" },
       { "label": "Privacy", "href": "/privacy" }
     ],
-    "astroNote": "// RA 05h 34m 32s,Dec +22° 00' 52\",M1, Crab Nebula"
+    "astroNote": "// RA 05h 34m 32s, Dec +22° 00' 52\", M1"
   },
   "legal": {
-    "title": "LEGAL NOTICE",
+    "title": "Legal Notice",
     "sections": [
       {
         "title": "Site publisher",
@@ -199,7 +306,7 @@
     ]
   },
   "privacy": {
-    "title": "PRIVACY POLICY",
+    "title": "Privacy Policy",
     "sections": [
       {
         "title": "Data collected",
