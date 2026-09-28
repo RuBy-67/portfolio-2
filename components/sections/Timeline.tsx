@@ -117,6 +117,22 @@ function TimelineItem({
             </span>
           ))}
         </div>
+
+        {item.links.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-4">
+            {item.links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-pixel text-xs py-2 px-3"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

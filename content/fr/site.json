@@ -40,7 +40,8 @@
           "title": "IRIS Mediaschool",
           "role": "Fondations en développement logiciel",
           "description": "Formation aux fondamentaux du développement : logique applicative, interfaces, structures de données et projets numériques.",
-          "tags": ["WEB", "DEV", "FOUNDATIONS"]
+          "tags": ["WEB", "DEV", "FOUNDATIONS"],
+          "links": []
         },
         {
           "id": "cesi",
@@ -49,7 +50,8 @@
           "title": "CESI",
           "role": "Bachelor Informatique",
           "description": "Approfondissement en ingénierie logicielle, architecture applicative et gestion de projets techniques.",
-          "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
+          "tags": ["BACHELOR", "ARCHITECTURE", "DEV"],
+          "links": []
         },
         {
           "id": "epitech",
@@ -58,7 +60,10 @@
           "title": "Epitech",
           "role": "Master IA & Big Data [EN COURS]",
           "description": "Formation avancée en intelligence artificielle, systèmes distribués et pipelines de données à grande échelle.",
-          "tags": ["IA", "BIGDATA", "AGENTS", "EN COURS"]
+          "tags": ["IA", "BIGDATA", "AGENTS", "EN COURS"],
+          "links": [
+            { "label": "Voir les projets Epitech", "href": "https://epitech.rb-rubydev.fr/" }
+          ]
         }
       ]
     },
@@ -72,7 +77,8 @@
           "title": "Econocom",
           "role": "Technicien informatique (alternance)",
           "description": "Gestion d'infrastructures IT, déploiements, support utilisateur et immersion dans des environnements d'entreprise à forte contrainte opérationnelle.",
-          "tags": ["INFRA", "IT", "OPS"]
+          "tags": ["INFRA", "IT", "OPS"],
+          "links": []
         },
         {
           "id": "sodilog-licence",
@@ -81,7 +87,8 @@
           "title": "Sodilog",
           "role": "Développeur (alternance)",
           "description": "Premiers flux de production entre e-commerce et ERP : synchronisation commandes / stocks, connecteurs API et suivi du cycle logistique.",
-          "tags": ["ERP", "API", "FLUX"]
+          "tags": ["ERP", "API", "FLUX"],
+          "links": []
         },
         {
           "id": "sodilog-master",
@@ -90,7 +97,8 @@
           "title": "Sodilog",
           "role": "Architecte de flux & systèmes (alternance)",
           "description": "Conception de Sodilflow (Sage X3 ↔ Shopify, PrestaShop, Odoo, Thelia), de Sodilink, de l’intranet métier et de la refonte du site Sodilog.",
-          "tags": ["SAGE X3", "SODILFLOW", "SODILINK", "THELIA", "FLUX"]
+          "tags": ["SAGE X3", "SODILFLOW", "SODILINK", "THELIA", "FLUX"],
+          "links": []
         }
       ]
     }

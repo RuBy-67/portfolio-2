@@ -40,7 +40,8 @@
           "title": "IRIS Mediaschool",
           "role": "Web & software foundations",
           "description": "Two years building technical fundamentals: software development, UI logic, data structures, and applied digital projects.",
-          "tags": ["WEB", "DEV", "FOUNDATIONS"]
+          "tags": ["WEB", "DEV", "FOUNDATIONS"],
+          "links": []
         },
         {
           "id": "cesi",
@@ -49,7 +50,8 @@
           "title": "CESI",
           "role": "Bachelor in Computer Science",
           "description": "Strengthening of software engineering principles, system design, and project architecture methodologies.",
-          "tags": ["BACHELOR", "ARCHITECTURE", "DEV"]
+          "tags": ["BACHELOR", "ARCHITECTURE", "DEV"],
+          "links": []
         },
         {
           "id": "epitech",
@@ -58,7 +60,10 @@
           "title": "Epitech",
           "role": "Master AI & Big Data [ONGOING]",
           "description": "Advanced studies in AI systems, distributed data pipelines, and autonomous agent design applied to real-world constraints.",
-          "tags": ["AI", "BIGDATA", "SYSTEMS", "ONGOING"]
+          "tags": ["AI", "BIGDATA", "SYSTEMS", "ONGOING"],
+          "links": [
+            { "label": "View Epitech projects", "href": "https://epitech.rb-rubydev.fr/" }
+          ]
         }
       ]
     },
@@ -72,7 +77,8 @@
           "title": "Econocom",
           "role": "IT Technician (apprenticeship)",
           "description": "Infrastructure operations, deployment, user support, and exposure to enterprise-scale IT environments with operational constraints.",
-          "tags": ["INFRA", "IT", "OPS"]
+          "tags": ["INFRA", "IT", "OPS"],
+          "links": []
         },
         {
           "id": "sodilog-licence",
@@ -81,7 +87,8 @@
           "title": "Sodilog",
           "role": "Developer (apprenticeship)",
           "description": "First production-grade data flows: e-commerce ↔ ERP synchronization, API connectors, and logistics lifecycle tracking.",
-          "tags": ["ERP", "API", "FLOW"]
+          "tags": ["ERP", "API", "FLOW"],
+          "links": []
         },
         {
           "id": "sodilog-master",
@@ -90,7 +97,8 @@
           "title": "Sodilog",
           "role": "Flow & systems architect (apprenticeship)",
           "description": "Design of Sodilflow (Sage X3 ↔ Shopify, PrestaShop, Odoo, Thelia), Sodilink, the internal intranet, and the Sodilog website redesign.",
-          "tags": ["SAGE X3", "SODILFLOW", "SODILINK", "THELIA", "FLOW"]
+          "tags": ["SAGE X3", "SODILFLOW", "SODILINK", "THELIA", "FLOW"],
+          "links": []
         }
       ]
     }
