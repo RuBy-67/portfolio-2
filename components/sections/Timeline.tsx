@@ -101,7 +101,20 @@ function TimelineItem({
           <span className="font-body text-muted text-sm">{item.year}</span>
         </div>
 
-        <p className="font-display text-text font-semibold text-base mb-1">{item.title}</p>
+        <p className="font-display text-text font-semibold text-base mb-1">
+          {item.links[0] ? (
+            <a
+              href={item.links[0].href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ruby transition-colors underline underline-offset-4 decoration-ruby/40"
+            >
+              {item.title}
+            </a>
+          ) : (
+            item.title
+          )}
+        </p>
         <p className="font-body mb-3 text-sm" style={{ color: dotColor }}>
           {item.role}
         </p>
@@ -119,16 +132,16 @@ function TimelineItem({
         </div>
 
         {item.links.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-4">
+          <div className="flex flex-wrap gap-3 mt-4">
             {item.links.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-pixel text-xs py-2 px-3"
+                className="font-body text-sm text-cyan hover:text-ruby transition-colors underline underline-offset-2"
               >
-                {link.label}
+                {link.label} ↗
               </a>
             ))}
           </div>
